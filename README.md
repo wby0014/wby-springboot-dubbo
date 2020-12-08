@@ -1,6 +1,3 @@
-<<<<<<< a3f1193eff91424cdddd312c07cbd77e57f122b3
-# wby-springboot-dubbo
-=======
 #### wby-springboot-dubbo
 + wby-springboot-dubbo微服务开发平台，具有统一授权、认证后台管理系统，其中包含具备用户管理、资源权限管理等多个模块，支持多业务系统并行开发，可以作为后端服务的开发脚手架。代码简洁，架构清晰，适合学习和直接项目中使用。
 + 核心技术采用SpringBoot、Dubbo、Mybatis、Mybatis-plus、Druid、Redis、ActiveMQ、Quartz、JWT Token等主要框架和中间件。前端采用vue-element-ui组件。
@@ -65,7 +62,7 @@ wby-springboot-dubbo
     + Nodejs (v10.16.0+)
    
 2. 执行创建数据库wby-springboot-dubbo并执行sql脚本
-    
+   
     + docs/sql/wby-springboot-dubbo.sql
     
 3. 启动Zookeeper服务发现和注册中心
@@ -134,7 +131,7 @@ wby-springboot-dubbo
 </table>
 
 #### 技术交流
-加入QQ群和大家一起交流吹水：
+加入QQ群：
 
 ![qq](docs/images/QQ.png)
 
@@ -150,4 +147,3 @@ wby-springboot-dubbo
   + 实现消费者调用多个服务提供者
   + wby-web-base去掉数据库连接
   + 优化前端代码
->>>>>>> 提交springboot-dubbo工程

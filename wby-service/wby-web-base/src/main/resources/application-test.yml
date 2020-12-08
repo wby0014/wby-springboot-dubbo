@@ -1,0 +1,110 @@
+spring:
+  redis:
+    database: 0
+    host: localhost
+    port: 6379
+    password:
+    timeout: 3600ms
+    #    cluster:
+    #      max-redirects: 3
+    #      nodes: 127.0.0.1:7000, 127.0.0.1:7001, 127.0.0.1:7002, 127.0.0.1:7003, 127.0.0.1:7004,127.0.0.1:7005
+    lettuce:
+      pool:
+        max-active: 100
+        max-idle: 100
+        min-idle: 50
+        max-wait: 6000ms
+      shutdown-timeout: 100ms
+  redisson:
+    file: classpath:redisson-single.yaml
+
+  activemq:
+    broker-url: tcp://localhost:61616
+    user: admin
+    password: admin
+    in-memory: false
+    pool:
+      enabled: true
+      max-connections: 100
+      idle-timeout: 30s
+
+  mail:
+    protocol: smtp
+    host: smtp.126.com
+    port: 465
+    username: xy_world_way@126.com
+    password: abc123
+    default-encoding: utf-8
+    test-connection: true
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+          socketFactory:
+            port: 465
+            class: javax.net.ssl.SSLSocketFactory
+            fallback: false
+
+  boot:
+    admin:
+      client:
+        url: http://127.0.0.1:8180
+        instance:
+          prefer-ip: true
+          service-base-url: http://127.0.0.1:${server.port}
+
+
+dubbo:
+  application:
+    id: hdw-consumer-base
+    name: ${dubbo.application.id}
+    qos:
+      enable: false
+  protocol:
+    id: dubbo
+    name: dubbo
+    port: 20883
+    threadpool: fixed
+    threads: 200
+    payload: 52428800
+  registry:
+    id: hdw-registry
+    address: zookeeper://127.0.0.1:2181
+    file: /output/cache/${dubbo.application.id}.cache
+    timeout: 5000
+    session: 60000
+    check: true
+  consumer:
+    id: ${dubbo.application.id}
+    group: hdw-base
+    version: 1.0.0
+    timeout: 60000
+    loadbalance: roundrobin
+    retries: 2
+    actives: 200
+
+fdfs:
+  file-upload:
+    server: http://127.0.0.1:9090
+  soTimeout: 1500
+  connectTimeout: 600
+  thumbImage:
+    width: 150
+    height: 150
+  trackerList[0]: 127.0.0.1:22122
+
+
+hdw:
+  # 上传路径配置
+  file-upload-prefix: D:\\Workspaces\\SSM\\src\\hdw-dubbo\\hdw-base-web\\src\\main\\resources\\static
+  # 资源访问全路径前缀：http://localhost:9090
+  resource-access-url: http://localhost:${server.port}${server.servlet.context-path}
+  # 拦截器配置
+  interceptor:
+    upload:
+      enabled: true
+      include-paths: /**
+      allow-file-extensions: gif,jpg,jpeg,bmp,png,jar,doc,docx,xls,xlsx,pdf,txt,rar

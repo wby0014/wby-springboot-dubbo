@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.3.6.RELEASE</version>
+        <relativePath/>
+    </parent>
+
+    <groupId>com.wby</groupId>
+    <artifactId>wby-springboot-dubbo</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+
+
+    <properties>
+        <java.version>1.8</java.version>
+        <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
+        
+        <spring-boot.version>2.3.6.RELEASE</spring-boot.version>
+        <dubbo.version>2.7.8</dubbo.version>
+
+        <spring-cloud.version>Hoxton.SR9</spring-cloud.version>
+        <spring-boot-admin.version>2.3.0</spring-boot-admin.version>
+        <alibaba.cloud.version>2.2.3.RELEASE</alibaba.cloud.version>
+        <alibaba.fastjson.version>1.2.75</alibaba.fastjson.version>
+        <alibaba.druid.version>1.2.3</alibaba.druid.version>
+
+        <apache.commons-lang3.version>3.9</apache.commons-lang3.version>
+        <apache.commons-io.version>2.6</apache.commons-io.version>
+        <apache.commons-beanutils.version>1.9.4</apache.commons-beanutils.version>
+        <apache.commons-codec.version>1.13</apache.commons-codec.version>
+        <apache.commons-collections4.version>4.4</apache.commons-collections4.version>
+        <apache.commons-fileupload.version>1.4</apache.commons-fileupload.version>
+        <apache.commons-text.version>1.8</apache.commons-text.version>
+        <apache.commons-configuration.version>1.10</apache.commons-configuration.version>
+        <httpclient.version>4.5.12</httpclient.version>
+        <pinyin4j.version>2.5.1</pinyin4j.version>
+        <com.google.zxing.version>3.4.0</com.google.zxing.version>
+        <hutool.version>5.5.1</hutool.version>
+        <pdfbox.version>2.0.19</pdfbox.version>
+        <knife4j.version>3.0.1</knife4j.version>
+        <fastdfs-spring-boot-starter.version>0.2.0</fastdfs-spring-boot-starter.version>
+        <mybatis-plus.version>3.4.1</mybatis-plus.version>
+        <dynamic-datasource-spring-boot-starter.version>3.2.1</dynamic-datasource-spring-boot-starter.version>
+        <p6spy.version>3.9.1</p6spy.version>
+        <redisson.version>3.14.0</redisson.version>
+        <jsoup.version>1.13.1</jsoup.version>
+        <jjwt.version>0.9.0</jjwt.version>
+        <shiro.version>1.6.0</shiro.version>
+        <pac4j.version>4.0.3</pac4j.version>
+        <buji.version>5.0.1</buji.version>
+        <thymeleaf-layout-dialect.version>2.4.1</thymeleaf-layout-dialect.version>
+        <thymeleaf-extras-shiro.version>2.0.0</thymeleaf-extras-shiro.version>
+        <easy-captcha.version>1.6.2</easy-captcha.version>
+        <velocity.version>2.2</velocity.version>
+
+        <wby-common.version>1.0.0</wby-common.version>
+        <wby-api-base.version>1.0.0</wby-api-base.version>
+        <wby-api-notice.version>1.0.0</wby-api-notice.version>
+    </properties>
+
+    <modules>
+        <module>wby-common</module>
+        <module>wby-service</module>
+        <module>wby-monitor</module>
+    </modules>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring-boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.dubbo</groupId>
+                <artifactId>dubbo-dependencies-bom</artifactId>
+                <version>${dubbo.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <repositories>
+        <repository>
+            <id>alimaven</id>
+            <name>aliyun maven</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+        </repository>
+    </repositories>
+
+    <profiles>
+        <profile>
+            <!-- 本地开发环境 -->
+            <id>dev</id>
+            <properties>
+                <profileActive>dev</profileActive>
+            </properties>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+        </profile>
+        <profile>
+            <!-- 生产环境 -->
+            <id>prod</id>
+            <properties>
+                <profileActive>prod</profileActive>
+            </properties>
+        </profile>
+        <profile>
+            <!-- 测试环境 -->
+            <id>test</id>
+            <properties>
+                <profileActive>test</profileActive>
+            </properties>
+        </profile>
+    </profiles>
+
+
+    <build>
+        <finalName>${project.artifactId}</finalName>
+        <resources>
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.xml</include>
+                </includes>
+                <filtering>false</filtering>
+            </resource>
+            <resource>
+                <directory>src/main/resources</directory>
+                <includes>
+                    <include>**/*</include>
+                    <include>application.yml</include>
+                    <include>application-${profileActive}.yml</include>
+                </includes>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                    <encoding>${maven.compiler.encoding}</encoding>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <configuration>
+                    <nonFilteredFileExtensions>
+                        <nonFilteredFileExtension>xlsx</nonFilteredFileExtension>
+                        <nonFilteredFileExtension>xls</nonFilteredFileExtension>
+                        <nonFilteredFileExtension>zip</nonFilteredFileExtension>
+                        <nonFilteredFileExtension>eot</nonFilteredFileExtension>
+                        <nonFilteredFileExtension>svg</nonFilteredFileExtension>
+                        <nonFilteredFileExtension>ttf</nonFilteredFileExtension>
+                        <nonFilteredFileExtension>woff</nonFilteredFileExtension>
+                        <nonFilteredFileExtension>woff2</nonFilteredFileExtension>
+                        <nonFilteredFileExtension>js</nonFilteredFileExtension>
+                        <nonFilteredFileExtension>css</nonFilteredFileExtension>
+                        <nonFilteredFileExtension>crt</nonFilteredFileExtension>
+                        <nonFilteredFileExtension>dat</nonFilteredFileExtension>
+                        <nonFilteredFileExtension>db</nonFilteredFileExtension>
+                        <nonFilteredFileExtension>xml</nonFilteredFileExtension>
+                    </nonFilteredFileExtensions>
+                    <encoding>utf-8</encoding>
+                    <useDefaultDelimiters>true</useDefaultDelimiters>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <configuration>
+                    <!--打包跳过测试-->
+                    <skipTests>true</skipTests>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+
+</project>

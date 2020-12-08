@@ -1,0 +1,10 @@
+server:
+  port: 8180
+  tomcat:
+    uri-encoding: UTF-8
+    max-connections: 1000
+    min-spare-threads: 30
+
+spring:
+  application:
+    name: ${project.artifactId}

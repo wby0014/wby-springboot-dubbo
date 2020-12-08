@@ -1,0 +1,11 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.wby.common.core.swagger2.Swagger2Config,\
+  com.wby.common.core.swagger2.Swagger2Properties,\
+  com.wby.common.core.web.CorsConfigure,\
+  com.wby.common.core.web.WebConfigure,\
+  com.wby.common.core.xss.XssFilter,\
+  com.wby.common.core.utils.SpringUtil,\
+  com.wby.common.core.task.AsyncThreadPoolConfig,\
+  com.wby.common.core.task.ScheduledThreadPoolConfig,\
+  com.wby.common.core.task.ThreadPoolConfig
+

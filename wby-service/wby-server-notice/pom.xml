@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>wby-service</artifactId>
+        <groupId>com.wby</groupId>
+        <version>1.0.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.wby</groupId>
+    <artifactId>wby-server-notice</artifactId>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
+
+    <name>wby-server-notice</name>
+    <description>系统消息服务提供者</description>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.wby</groupId>
+            <artifactId>wby-api-base</artifactId>
+            <version>${wby-api-base.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.wby</groupId>
+            <artifactId>wby-api-notice</artifactId>
+            <version>${wby-api-notice.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.wby</groupId>
+            <artifactId>wby-common-starter-datasource</artifactId>
+            <version>${wby-common.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.wby</groupId>
+            <artifactId>wby-common-starter-redis</artifactId>
+            <version>${wby-common.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>de.codecentric</groupId>
+            <artifactId>spring-boot-admin-starter-client</artifactId>
+            <version>${spring-boot-admin.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <finalName>${project.artifactId}</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>${spring-boot.version}</version>
+                <configuration>
+                    <fork>true</fork>
+                    <outputDirectory>../docker/server-notice</outputDirectory>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

@@ -14,7 +14,7 @@
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
-    <name>hdw-common-starter-redis</name>
+    <name>wby-common-starter-redis</name>
     <url>http://maven.apache.org</url>
 
     <dependencies>

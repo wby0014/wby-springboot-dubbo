@@ -12,7 +12,7 @@ import java.util.Map;
 /**
  * 角色表
  *
- * @author JacksonTu
+ * @author wby
  * @date 2018-12-11 11:35:15
  */
 public interface ISysRoleService extends IBaseService<SysRole> {

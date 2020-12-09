@@ -9,7 +9,7 @@ import javax.annotation.Resource;
 
 /**
  * @Description WebMVC 拦截器配置
- * @Author JacksonTu
+ * @Author wby
  * @Date 2020/4/8 19:00
  */
 @Slf4j

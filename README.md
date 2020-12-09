@@ -15,9 +15,9 @@
 
 #### 项目地址
 
- 平台  | wby-springboot-dubbo（后端）  |hdw-dubbo-ui（前端）
+ 平台  | wby-springboot-dubbo（后端）  |wby-dubbo-ui（前端）
 ---|---|---
-GitHub | [https://github.com/wby0014/wby-springboot-dubbo](https://github.com/wby0014/wby-springboot-dubbo) |[https://github.com/JacksonTu/hdw-dubbo-ui](https://github.com/JacksonTu/hdw-dubbo-ui)
+GitHub | [https://github.com/wby0014/wby-springboot-dubbo](https://github.com/wby0014/wby-springboot-dubbo) |[https://github.com/wby/wby-dubbo-ui](https://github.com/wby/wby-dubbo-ui)
 
 
 
@@ -25,9 +25,9 @@ GitHub | [https://github.com/wby0014/wby-springboot-dubbo](https://github.com/wb
 ``` lua
 wby-springboot-dubbo
 ├── docker                             -- docker脚本文件
-    ├── server-base                        -- hdw-server-base脚本
-    ├── server-notice                      -- hdw-server-notice脚本
-    ├── web-base                           -- hdw-base-web脚本
+    ├── server-base                        -- wby-server-base脚本
+    ├── server-notice                      -- wby-server-notice脚本
+    ├── web-base                           -- wby-base-web脚本
 
 ├── docs                               -- 文档及脚本
     ├── config                         -- dubbo控制台

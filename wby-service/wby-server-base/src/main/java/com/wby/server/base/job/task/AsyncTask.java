@@ -8,7 +8,7 @@ import java.util.Random;
 import java.util.concurrent.Future;
 
 /**
- * @author JacksonTu
+ * @author wby
  * @description 异步任务测试
  * @Date 2018/5/31 19:18
  */

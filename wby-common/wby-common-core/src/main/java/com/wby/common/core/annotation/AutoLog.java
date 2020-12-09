@@ -4,7 +4,7 @@ import java.lang.annotation.*;
 
 /**
  * @Description 系统日志注解
- * @Author JacksonTu
+ * @Author wby
  * @Date 2019/11/13 14:29
  */
 @Target(ElementType.METHOD)

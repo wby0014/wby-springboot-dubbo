@@ -13,7 +13,7 @@ import java.util.concurrent.Future;
  * <p>
  * testTask为spring bean的名称
  *
- * @author JacksonTu
+ * @author wby
  * @since 1.2.0 2016-11-28
  */
 @Component("testTask")

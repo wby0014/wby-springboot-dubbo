@@ -10,7 +10,7 @@ import java.util.List;
 
 /**
  * @description：UserVo
- * @author：JacksonTu
+ * @author：wby
  * @date 2018年5月6日 上午9:55:46
  */
 public class RoleVo extends SysRole implements Serializable {

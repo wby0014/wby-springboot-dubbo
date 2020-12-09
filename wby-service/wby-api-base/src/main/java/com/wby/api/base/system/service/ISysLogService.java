@@ -8,7 +8,7 @@ import com.wby.common.core.service.IBaseService;
 /**
  * 系统日志表
  *
- * @author JacksonTu
+ * @author wby
  * @date 2018-12-11 11:35:15
  */
 public interface ISysLogService extends IBaseService<SysLog> {

@@ -7,7 +7,7 @@ import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * @author JacksonTu
+ * @author wby
  * @version 1.0
  * @description 线程池配置
  * @since 2020/11/9 21:22

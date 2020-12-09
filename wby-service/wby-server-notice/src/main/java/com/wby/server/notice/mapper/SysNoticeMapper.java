@@ -9,7 +9,7 @@ import org.apache.ibatis.annotations.Param;
 /**
  * 系统通告表 Mapper
  *
- * @author JacksonTu
+ * @author wby
  * @date 2020-10-12 15:02:54
  */
 public interface SysNoticeMapper extends BaseMapper<SysNotice> {

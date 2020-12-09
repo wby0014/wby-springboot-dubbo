@@ -13,7 +13,7 @@ import java.util.List;
 
 /**
  * @Description 菜单的节点
- * @Author JacksonTu
+ * @Author wby
  * @Date 2018/12/13 18:37
  */
 public class MenuVo implements Comparable, Serializable {

@@ -11,7 +11,7 @@ import java.util.List;
 /**
  * 监管用户与企业关联表
  *
- * @author JacksonTu
+ * @author wby
  * @date 2018-12-11 11:35:15
  */
 public interface SysUserEnterpriseMapper extends BaseMapper<SysUserEnterprise> {

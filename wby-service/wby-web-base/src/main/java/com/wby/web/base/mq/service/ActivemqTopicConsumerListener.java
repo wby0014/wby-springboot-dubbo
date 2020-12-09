@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 import javax.jms.Message;
 
 /**
- * @author JacksonTu
+ * @author wby
  * @version 1.0
  * @description topic模式的消费者
  * @since 2020/11/11 16:13

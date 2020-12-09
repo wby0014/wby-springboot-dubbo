@@ -48,7 +48,7 @@ import java.time.format.DateTimeFormatter;
 
 /**
  * @Description Redis配置类
- * @Author JacksonTu
+ * @Author wby
  * @Date 2020/3/28 16:58
  */
 @EnableCaching

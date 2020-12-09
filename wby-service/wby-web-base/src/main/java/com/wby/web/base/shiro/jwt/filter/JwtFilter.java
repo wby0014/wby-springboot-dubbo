@@ -21,7 +21,7 @@ import java.util.Map;
 
 
 /**
- * @author JacksonTu
+ * @author wby
  * @version 1.0.0
  * @Description oauth2过滤器
  * @date 2018年6月11日下午4:49:37

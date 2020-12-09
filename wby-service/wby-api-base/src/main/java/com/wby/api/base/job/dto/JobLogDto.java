@@ -8,7 +8,7 @@ import lombok.EqualsAndHashCode;
 
 /**
  * @Description 查询定时任务日志参数对象
- * @Author JacksonTu
+ * @Author wby
  * @Date 2019/11/6 18:57
  */
 @Data

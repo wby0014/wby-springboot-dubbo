@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * 系统通告表 Service接口
  *
- * @author JacksonTu
+ * @author wby
  * @date 2020-10-12 15:02:54
  */
 public interface ISysNoticeService extends IService<SysNotice> {

@@ -9,7 +9,7 @@ import java.util.Set;
 
 /**
  * @Description hibernate-validator校验工具类
- * @Author JacksonTu
+ * @Author wby
  * @Date 2017-03-15 10:50
  */
 public class ValidatorUtil {

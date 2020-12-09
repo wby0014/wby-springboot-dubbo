@@ -25,7 +25,7 @@ import javax.validation.Valid;
 import java.util.*;
 
 /**
- * @author JacksonTu
+ * @author wby
  * @description 数据字典接口
  * @date 2018年3月6日 上午10:02:48
  */

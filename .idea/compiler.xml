@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="wby-common-starter-datasource" />
+        <module name="wby-api-base" />
+        <module name="wby-api-notice" />
+        <module name="wby-common-starter-redis" />
+        <module name="wby-common-core" />
+        <module name="wby-monitor" />
+        <module name="wby-web-base" />
+        <module name="wby-common-starter-redisson" />
+        <module name="wby-server-base" />
+        <module name="wby-server-notice" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="wby-api-base" target="1.8" />
+      <module name="wby-api-notice" target="1.8" />
+      <module name="wby-common" target="1.8" />
+      <module name="wby-common-core" target="1.8" />
+      <module name="wby-common-starter-datasource" target="1.8" />
+      <module name="wby-common-starter-redis" target="1.8" />
+      <module name="wby-common-starter-redisson" target="1.8" />
+      <module name="wby-monitor" target="1.8" />
+      <module name="wby-server-base" target="1.8" />
+      <module name="wby-server-notice" target="1.8" />
+      <module name="wby-service" target="1.8" />
+      <module name="wby-springboot-dubbo" target="1.8" />
+      <module name="wby-web-base" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="wby-api-base" options="-parameters" />
+      <module name="wby-api-notice" options="-parameters" />
+      <module name="wby-common-core" options="-parameters" />
+      <module name="wby-common-starter-datasource" options="-parameters" />
+      <module name="wby-common-starter-redis" options="-parameters" />
+      <module name="wby-common-starter-redisson" options="-parameters" />
+      <module name="wby-monitor" options="-parameters" />
+      <module name="wby-server-base" options="-parameters" />
+      <module name="wby-server-notice" options="-parameters" />
+      <module name="wby-web-base" options="-parameters" />
+    </option>
+  </component>
+</project>

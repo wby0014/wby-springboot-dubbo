@@ -14,7 +14,7 @@ import java.net.URLEncoder;
  * 2.自制的base62 编码
  * 3.Commons-Lang的xml/html escape
  * 4.JDK提供的URLEncoder
- * @Author JacksonTu
+ * @Author wby
  * @Date 2020/3/5 19:40
  */
 public class EncodeUtil {

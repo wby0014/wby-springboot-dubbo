@@ -38,7 +38,7 @@ import java.util.concurrent.ConcurrentMap;
 
 /**
  * @Description 登录退出接口
- * @Author JacksonTu
+ * @Author wby
  * @Date 2018/6/11 17:07
  */
 @Slf4j

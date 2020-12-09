@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.util.Date;
 
 /**
- * @author JacksonTu
+ * @author wby
  * @version 1.0
  * @description 消息模型
  * @since 2020/8/15 10:48

@@ -13,7 +13,7 @@ import java.util.Date;
 
 /**
  * @Description 定时任务日志
- * @Author JacksonTu
+ * @Author wby
  * @Date 2019/1/18 15:59
  **/
 @ApiModel("定时任务日志")

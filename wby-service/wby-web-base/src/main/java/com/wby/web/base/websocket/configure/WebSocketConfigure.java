@@ -6,7 +6,7 @@ import org.springframework.web.socket.server.standard.ServerEndpointExporter;
 
 
 /**
- * @author JacksonTu
+ * @author wby
  * @Description websocket配置
  * @date 2018/6/28 19:44
  */

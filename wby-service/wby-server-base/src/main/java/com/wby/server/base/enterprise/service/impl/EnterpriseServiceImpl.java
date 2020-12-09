@@ -15,7 +15,7 @@ import java.util.Map;
 /**
  * 企业信息表
  *
- * @author JacksonTu
+ * @author wby
  * @date 2018-12-11 13:49:00
  */
 @Slf4j

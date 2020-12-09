@@ -11,7 +11,7 @@ import java.util.List;
 
 /**
  * @Description vue 树形选择器对象
- * @Author JacksonTu
+ * @Author wby
  * @Date 2018/12/13 18:37
  */
 @ApiModel("vue 树形选择器对象")

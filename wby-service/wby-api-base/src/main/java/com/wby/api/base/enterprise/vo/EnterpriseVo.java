@@ -13,7 +13,7 @@ import java.util.Date;
 /**
  * 企业信息表
  *
- * @author JacksonTu
+ * @author wby
  * @date 2018-12-11 13:49:00
  */
 @ApiModel(value = "企业信息")

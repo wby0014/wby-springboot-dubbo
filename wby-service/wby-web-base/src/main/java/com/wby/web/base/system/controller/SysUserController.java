@@ -34,7 +34,7 @@ import java.util.List;
 
 /**
  * @Description 用户表接口
- * @Author JacksonTu
+ * @Author wby
  * @Date 2018/12/13 11:42
  */
 @Slf4j

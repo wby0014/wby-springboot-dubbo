@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="891fe6ce-e9d5-440f-b55d-19166bd19a8a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/annotation/AutoLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/annotation/AutoLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/api/CommonResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/api/CommonResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/api/IErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/api/IErrorCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/api/ResultCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/api/ResultCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/constant/CommonConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/constant/CommonConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/constant/WebsocketConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/constant/WebsocketConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/dto/CommonDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/dto/CommonDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/exception/Asserts.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/exception/Asserts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/exception/BaseException.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/exception/BaseException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/exception/BaseExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/exception/BaseExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/jackson/converter/ConverterConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/jackson/converter/ConverterConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/jackson/converter/StringToDateConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/jackson/converter/StringToDateConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/jackson/converter/StringToDateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/jackson/converter/StringToDateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/jackson/converter/StringToDoubleConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/jackson/converter/StringToDoubleConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/jackson/converter/StringToDoubleUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/jackson/converter/StringToDoubleUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/jackson/converter/StringToIntegerConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/jackson/converter/StringToIntegerConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/jackson/converter/StringToIntegerUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/jackson/converter/StringToIntegerUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/jackson/deserializer/JacksonDateDeserializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/jackson/deserializer/JacksonDateDeserializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/jackson/deserializer/JacksonDoubleDeserializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/jackson/deserializer/JacksonDoubleDeserializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/jackson/deserializer/JacksonLocalDateTimeDeserializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/jackson/deserializer/JacksonLocalDateTimeDeserializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/jackson/serializer/JacksonDateSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/jackson/serializer/JacksonDateSerializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/jackson/serializer/JacksonIntegerDeserializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/jackson/serializer/JacksonIntegerDeserializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/jackson/serializer/JacksonLocalDateTimeSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/jackson/serializer/JacksonLocalDateTimeSerializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/mapper/SuperMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/mapper/SuperMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/service/IBaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/service/IBaseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/service/impl/BaseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/service/impl/BaseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/swagger2/Swagger2Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/swagger2/Swagger2Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/swagger2/Swagger2Properties.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/swagger2/Swagger2Properties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/task/AsyncThreadPoolConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/task/AsyncThreadPoolConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/task/ScheduledThreadPoolConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/task/ScheduledThreadPoolConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/task/ThreadPoolConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/task/ThreadPoolConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/utils/BeanConvertUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/utils/BeanConvertUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/utils/CRC16.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/utils/CRC16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/utils/CurrencyUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/utils/CurrencyUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/utils/EncodeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/utils/EncodeUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/utils/EncryptUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/utils/EncryptUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/utils/ImageUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/utils/ImageUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/utils/JacksonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/utils/JacksonUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/utils/MathUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/utils/MathUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/utils/PinyinUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/utils/PinyinUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/utils/QRCodeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/utils/QRCodeUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/utils/SpringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/utils/SpringUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/utils/TreeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/utils/TreeUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/utils/WebUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/utils/WebUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/validator/ValidatorUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/validator/ValidatorUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/validator/group/CreateGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/validator/group/CreateGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/validator/group/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/validator/group/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/validator/group/UpdateGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/validator/group/UpdateGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/vo/LoginUserVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/vo/LoginUserVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/vo/MenuVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/vo/MenuVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/vo/PageVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/vo/PageVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/vo/SelectTreeVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/vo/SelectTreeVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/vo/SelectVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/vo/SelectVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/vo/TreeVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/vo/TreeVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/web/CorsConfigure.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/web/CorsConfigure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/web/WebConfigure.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/web/WebConfigure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/xss/XssFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/xss/XssFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/xss/XssHttpServletRequestWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/xss/XssHttpServletRequestWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/xss/XssJacksonDeserializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/xss/XssJacksonDeserializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/xss/XssJacksonSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-core/src/main/java/com/wby/common/core/xss/XssJacksonSerializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-starter-datasource/src/main/java/com/wby/common/starter/datasource/configure/MybatisPlusConfigure.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-starter-datasource/src/main/java/com/wby/common/starter/datasource/configure/MybatisPlusConfigure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-starter-redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-starter-redis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-starter-redis/src/main/java/com/wby/common/starter/redis/configure/RedisAutoConfigure.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-starter-redis/src/main/java/com/wby/common/starter/redis/configure/RedisAutoConfigure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-starter-redis/src/main/java/com/wby/common/starter/redis/configure/ShiroRedisSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-starter-redis/src/main/java/com/wby/common/starter/redis/configure/ShiroRedisSerializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-starter-redis/src/main/java/com/wby/common/starter/redis/entity/RedisSimpleMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-starter-redis/src/main/java/com/wby/common/starter/redis/entity/RedisSimpleMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-starter-redis/src/main/java/com/wby/common/starter/redis/service/RedisPubService.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-starter-redis/src/main/java/com/wby/common/starter/redis/service/RedisPubService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-starter-redis/src/main/java/com/wby/common/starter/redis/service/RedisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-starter-redis/src/main/java/com/wby/common/starter/redis/service/RedisService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-starter-redisson/src/main/java/com/wby/common/starter/redisson/configure/RedissonAutoConfigure.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-starter-redisson/src/main/java/com/wby/common/starter/redisson/configure/RedissonAutoConfigure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-starter-redisson/src/main/java/com/wby/common/starter/redisson/configure/ShiroRedisSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-starter-redisson/src/main/java/com/wby/common/starter/redisson/configure/ShiroRedisSerializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-starter-redisson/src/main/java/com/wby/common/starter/redisson/entity/RedisSimpleMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-starter-redisson/src/main/java/com/wby/common/starter/redisson/entity/RedisSimpleMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-starter-redisson/src/main/java/com/wby/common/starter/redisson/service/RedisPubService.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-starter-redisson/src/main/java/com/wby/common/starter/redisson/service/RedisPubService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-common/wby-common-starter-redisson/src/main/java/com/wby/common/starter/redisson/service/RedisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-common/wby-common-starter-redisson/src/main/java/com/wby/common/starter/redisson/service/RedisService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-monitor/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/wby-monitor/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-monitor/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wby-monitor/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-monitor/src/main/java/com/wby/MonitorApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-monitor/src/main/java/com/wby/MonitorApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-monitor/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wby-monitor/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/enterprise/dto/EnterpriseDepartmentDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/enterprise/dto/EnterpriseDepartmentDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/enterprise/dto/EnterpriseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/enterprise/dto/EnterpriseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/enterprise/dto/EnterpriseJobDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/enterprise/dto/EnterpriseJobDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/enterprise/entity/Enterprise.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/enterprise/entity/Enterprise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/enterprise/entity/EnterpriseDepartment.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/enterprise/entity/EnterpriseDepartment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/enterprise/entity/EnterpriseJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/enterprise/entity/EnterpriseJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/enterprise/service/IEnterpriseDepartmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/enterprise/service/IEnterpriseDepartmentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/enterprise/service/IEnterpriseJobService.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/enterprise/service/IEnterpriseJobService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/enterprise/service/IEnterpriseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/enterprise/service/IEnterpriseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/enterprise/vo/EnterpriseDepartmentVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/enterprise/vo/EnterpriseDepartmentVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/enterprise/vo/EnterpriseJobVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/enterprise/vo/EnterpriseJobVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/enterprise/vo/EnterpriseVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/enterprise/vo/EnterpriseVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/generator/dto/TableDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/generator/dto/TableDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/generator/entity/ColumnEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/generator/entity/ColumnEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/generator/entity/TableEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/generator/entity/TableEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/generator/service/IGeneratorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/generator/service/IGeneratorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/job/dto/JobDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/job/dto/JobDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/job/dto/JobLogDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/job/dto/JobLogDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/job/entity/ScheduleJobEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/job/entity/ScheduleJobEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/job/entity/ScheduleJobLogEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/job/entity/ScheduleJobLogEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/job/service/IScheduleJobLogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/job/service/IScheduleJobLogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/job/service/IScheduleJobService.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/job/service/IScheduleJobService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/system/dto/FileDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/system/dto/FileDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/system/dto/LogDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/system/dto/LogDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/system/dto/RoleDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/system/dto/RoleDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/system/dto/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/system/dto/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/system/entity/SysDic.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/system/entity/SysDic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/system/entity/SysFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/system/entity/SysFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/system/entity/SysLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/system/entity/SysLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/system/entity/SysResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/system/entity/SysResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/system/entity/SysRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/system/entity/SysRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/system/entity/SysRoleResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/system/entity/SysRoleResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/system/entity/SysUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/system/entity/SysUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/system/entity/SysUserEnterprise.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/system/entity/SysUserEnterprise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/system/entity/SysUserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/system/entity/SysUserRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/system/service/ISysDicService.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/system/service/ISysDicService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/system/service/ISysFileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/system/service/ISysFileService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/system/service/ISysLogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/system/service/ISysLogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/system/service/ISysResourceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/system/service/ISysResourceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/system/service/ISysRoleResourceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/system/service/ISysRoleResourceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/system/service/ISysRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/system/service/ISysRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/system/service/ISysUserEnterpriseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/system/service/ISysUserEnterpriseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/system/service/ISysUserRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/system/service/ISysUserRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/system/service/ISysUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/system/service/ISysUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/system/vo/DicVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/system/vo/DicVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/system/vo/MenuVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/system/vo/MenuVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/system/vo/RoleVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/system/vo/RoleVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/system/vo/UserVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-base/src/main/java/com/wby/api/base/system/vo/UserVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-notice/src/main/java/com/wby/api/notice/dto/NoticeDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-notice/src/main/java/com/wby/api/notice/dto/NoticeDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-notice/src/main/java/com/wby/api/notice/dto/NoticeSendDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-notice/src/main/java/com/wby/api/notice/dto/NoticeSendDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-notice/src/main/java/com/wby/api/notice/entity/SysNotice.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-notice/src/main/java/com/wby/api/notice/entity/SysNotice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-notice/src/main/java/com/wby/api/notice/entity/SysNoticeSend.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-notice/src/main/java/com/wby/api/notice/entity/SysNoticeSend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-notice/src/main/java/com/wby/api/notice/service/ISysNoticeSendService.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-notice/src/main/java/com/wby/api/notice/service/ISysNoticeSendService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-api-notice/src/main/java/com/wby/api/notice/service/ISysNoticeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-api-notice/src/main/java/com/wby/api/notice/service/ISysNoticeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/ServerBaseApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/ServerBaseApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/enterprise/mapper/EnterpriseDepartmentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/enterprise/mapper/EnterpriseDepartmentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/enterprise/mapper/EnterpriseJobMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/enterprise/mapper/EnterpriseJobMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/enterprise/mapper/EnterpriseMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/enterprise/mapper/EnterpriseMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/enterprise/service/impl/EnterpriseDepartmentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/enterprise/service/impl/EnterpriseDepartmentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/enterprise/service/impl/EnterpriseJobServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/enterprise/service/impl/EnterpriseJobServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/enterprise/service/impl/EnterpriseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/enterprise/service/impl/EnterpriseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/generator/mapper/GeneratorMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/generator/mapper/GeneratorMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/generator/service/impl/GeneratorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/generator/service/impl/GeneratorServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/generator/utils/GeneratorUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/generator/utils/GeneratorUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/job/mapper/ScheduleJobLogMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/job/mapper/ScheduleJobLogMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/job/mapper/ScheduleJobMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/job/mapper/ScheduleJobMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/job/service/impl/ScheduleJobLogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/job/service/impl/ScheduleJobLogServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/job/service/impl/ScheduleJobServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/job/service/impl/ScheduleJobServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/job/task/AsyncTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/job/task/AsyncTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/job/task/TestTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/job/task/TestTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/job/util/ScheduleJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/job/util/ScheduleJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/job/util/ScheduleRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/job/util/ScheduleRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/job/util/ScheduleUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/job/util/ScheduleUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/system/mapper/SysDicMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/system/mapper/SysDicMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/system/mapper/SysFileMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/system/mapper/SysFileMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/system/mapper/SysLogMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/system/mapper/SysLogMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/system/mapper/SysResourceMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/system/mapper/SysResourceMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/system/mapper/SysRoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/system/mapper/SysRoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/system/mapper/SysRoleResourceMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/system/mapper/SysRoleResourceMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/system/mapper/SysUserEnterpriseMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/system/mapper/SysUserEnterpriseMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/system/mapper/SysUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/system/mapper/SysUserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/system/mapper/SysUserRoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/system/mapper/SysUserRoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/system/service/impl/SysDicServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/system/service/impl/SysDicServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/system/service/impl/SysFileServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/system/service/impl/SysFileServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/system/service/impl/SysLogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/system/service/impl/SysLogServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/system/service/impl/SysResourceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/system/service/impl/SysResourceServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/system/service/impl/SysRoleResourceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/system/service/impl/SysRoleResourceServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/system/service/impl/SysRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/system/service/impl/SysRoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/system/service/impl/SysUserEnterpriseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/system/service/impl/SysUserEnterpriseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/system/service/impl/SysUserRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/system/service/impl/SysUserRoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/system/service/impl/SysUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/java/com/wby/server/base/system/service/impl/SysUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/resources/application-prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/resources/application-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/resources/application-test.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/resources/generator.properties" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/resources/generator.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-notice/src/main/java/com/wby/server/notice/ServerNoticeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-notice/src/main/java/com/wby/server/notice/ServerNoticeApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-notice/src/main/java/com/wby/server/notice/mapper/SysNoticeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-notice/src/main/java/com/wby/server/notice/mapper/SysNoticeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-notice/src/main/java/com/wby/server/notice/mapper/SysNoticeSendMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-notice/src/main/java/com/wby/server/notice/mapper/SysNoticeSendMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-notice/src/main/java/com/wby/server/notice/service/impl/SysNoticeSendServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-notice/src/main/java/com/wby/server/notice/service/impl/SysNoticeSendServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-notice/src/main/java/com/wby/server/notice/service/impl/SysNoticeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-notice/src/main/java/com/wby/server/notice/service/impl/SysNoticeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-notice/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-notice/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-notice/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-notice/src/main/resources/application-prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-notice/src/main/resources/application-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-notice/src/main/resources/application-test.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-notice/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-notice/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-notice/src/test/java/com/wby/server/notice/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-notice/src/test/java/com/wby/server/notice/MyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-notice/src/test/java/com/wby/server/notice/ServerNoticeApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-notice/src/test/java/com/wby/server/notice/ServerNoticeApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/WebBaseApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/WebBaseApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/enterprise/controller/EnterpriseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/enterprise/controller/EnterpriseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/enterprise/controller/EnterpriseDepartmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/enterprise/controller/EnterpriseDepartmentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/enterprise/controller/EnterpriseJobController.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/enterprise/controller/EnterpriseJobController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/generator/controller/GeneratorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/generator/controller/GeneratorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/handler/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/interceptor/InterceptorProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/interceptor/InterceptorProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/interceptor/InterceptorWebConfigure.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/interceptor/InterceptorWebConfigure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/interceptor/UploadInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/interceptor/UploadInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/job/controller/ScheduleJobController.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/job/controller/ScheduleJobController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/job/controller/ScheduleJobLogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/job/controller/ScheduleJobLogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/mail/dto/MailDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/mail/dto/MailDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/mail/service/MailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/mail/service/MailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/mq/configure/ActivemqConfigure.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/mq/configure/ActivemqConfigure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/mq/service/ActivemqQueueConsumerListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/mq/service/ActivemqQueueConsumerListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/mq/service/ActivemqSendMsgService.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/mq/service/ActivemqSendMsgService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/mq/service/ActivemqTopicConsumerListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/mq/service/ActivemqTopicConsumerListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/notice/controller/SysNoticeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/notice/controller/SysNoticeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/notice/controller/SysNoticeSendController.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/notice/controller/SysNoticeSendController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/notice/service/NoticeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/notice/service/NoticeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/shiro/ShiroUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/shiro/ShiroUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/shiro/cache/ShiroRedisCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/shiro/cache/ShiroRedisCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/shiro/cache/ShiroRedisCacheManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/shiro/cache/ShiroRedisCacheManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/shiro/jwt/JwtRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/shiro/jwt/JwtRealm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/shiro/jwt/JwtSessionListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/shiro/jwt/JwtSessionListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/shiro/jwt/JwtToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/shiro/jwt/JwtToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/shiro/jwt/JwtTokenUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/shiro/jwt/JwtTokenUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/shiro/jwt/config/ShiroJwtConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/shiro/jwt/config/ShiroJwtConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/shiro/jwt/filter/JwtFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/shiro/jwt/filter/JwtFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/system/aspect/AutoLogAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/system/aspect/AutoLogAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/system/aspect/SysLogAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/system/aspect/SysLogAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/system/controller/SysDicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/system/controller/SysDicController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/system/controller/SysLogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/system/controller/SysLogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/system/controller/SysLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/system/controller/SysLoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/system/controller/SysResourceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/system/controller/SysResourceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/system/controller/SysRoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/system/controller/SysRoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/system/controller/SysUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/system/controller/SysUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/system/controller/UpLoadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/system/controller/UpLoadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/system/dto/PasswordDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/system/dto/PasswordDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/system/dto/SysLoginDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/system/dto/SysLoginDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/websocket/CommonWebSocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/websocket/CommonWebSocket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/websocket/configure/WebSocketConfigure.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/java/com/wby/web/base/websocket/configure/WebSocketConfigure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/resources/application-prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/resources/application-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/resources/application-test.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-web-base/src/test/java/com/wby/web/base/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-web-base/src/test/java/com/wby/web/base/MyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wby-service/wby-web-base/src/test/java/com/wby/web/base/WebBaseApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-web-base/src/test/java/com/wby/web/base/WebBaseApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\software\mavenRepository\repos" />
+        <option name="mavenHome" value="D:/software/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\software\mavenRepository\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1lOm9LUSQYaUhXqqVSkMfQSyu7u" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.37763712" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.WebBaseApplication">
+    <configuration name="MonitorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="wby-monitor" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wby.MonitorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerBaseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="wby-server-base" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wby.server.base.ServerBaseApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerNoticeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="wby-server-notice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wby.server.notice.ServerNoticeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebBaseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="wby-web-base" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wby.web.base.WebBaseApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="891fe6ce-e9d5-440f-b55d-19166bd19a8a" name="Default Changelist" comment="" />
+      <created>1607476358925</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607476358925</updated>
+      <workItem from="1607476365210" duration="7639000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1323" height="300" key="GridCell.Tab.0.bottom" timestamp="1607494747131">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="300" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607494747131" />
+    <state width="1323" height="300" key="GridCell.Tab.0.center" timestamp="1607494747130">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="300" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607494747130" />
+    <state width="1323" height="300" key="GridCell.Tab.0.left" timestamp="1607494747128">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="300" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607494747128" />
+    <state width="1323" height="300" key="GridCell.Tab.0.right" timestamp="1607494747130">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="300" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607494747130" />
+    <state width="1323" height="300" key="GridCell.Tab.1.bottom" timestamp="1607494747131">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="300" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607494747131" />
+    <state width="1323" height="300" key="GridCell.Tab.1.center" timestamp="1607494747131">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="300" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607494747131" />
+    <state width="1323" height="300" key="GridCell.Tab.1.left" timestamp="1607494747131">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="300" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607494747131" />
+    <state width="1323" height="300" key="GridCell.Tab.1.right" timestamp="1607494747131">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="300" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607494747131" />
+    <state width="1323" height="300" key="GridCell.Tab.2.bottom" timestamp="1607494747131">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="300" key="GridCell.Tab.2.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607494747131" />
+    <state width="1323" height="300" key="GridCell.Tab.2.center" timestamp="1607494747131">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="300" key="GridCell.Tab.2.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607494747131" />
+    <state width="1323" height="300" key="GridCell.Tab.2.left" timestamp="1607494747131">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="300" key="GridCell.Tab.2.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607494747131" />
+    <state width="1323" height="300" key="GridCell.Tab.2.right" timestamp="1607494747131">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="300" key="GridCell.Tab.2.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607494747131" />
+    <state x="290" y="64" width="786" height="600" key="find.popup" timestamp="1607494843607">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="290" y="64" width="786" height="600" key="find.popup/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607494843607" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1607480630903">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607480630903" />
+  </component>
+</project>

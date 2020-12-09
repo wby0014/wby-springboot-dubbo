@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.*;
 
 /**
  * @Description 定时任务
- * @Author JacksonTu
+ * @Author wby
  * @Date 2019/1/18 15:59
  **/
 @Api(value = "定时任务接口", tags = {"定时任务接口"})

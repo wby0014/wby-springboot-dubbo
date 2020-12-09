@@ -26,8 +26,8 @@ import java.lang.reflect.Method;
 import java.util.Date;
 
 /**
- * @Description com.hdw.web.base.system.aspect
- * @Author JacksonTu
+ * @Description com.wby.web.base.system.aspect
+ * @Author wby
  * @Date 2019/11/13 14:58
  */
 @Aspect

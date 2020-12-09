@@ -11,7 +11,7 @@ import java.util.List;
 
 
 /**
- * @author JacksonTu
+ * @author wby
  * @Descriptin shiro工具类
  * @Date 2018年5月1日 下午2:43:09
  */

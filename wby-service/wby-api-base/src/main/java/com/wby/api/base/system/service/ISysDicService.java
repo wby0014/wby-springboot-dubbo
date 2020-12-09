@@ -10,7 +10,7 @@ import java.util.Map;
 /**
  * 数据字典表
  *
- * @author JacksonTu
+ * @author wby
  * @date 2018-12-11 11:35:15
  */
 public interface ISysDicService extends IService<SysDic> {

@@ -30,7 +30,7 @@ import java.util.List;
 /**
  * 系统通告表 Service实现
  *
- * @author JacksonTu
+ * @author wby
  * @date 2020-10-12 15:02:54
  */
 @DubboService

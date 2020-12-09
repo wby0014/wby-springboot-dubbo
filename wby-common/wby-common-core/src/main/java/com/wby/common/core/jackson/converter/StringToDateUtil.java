@@ -20,7 +20,7 @@ import java.util.Date;
  * </pre>
  * </code>
  *
- * @author JacksonTu
+ * @author wby
  * @date 2020-04-02
  */
 public class StringToDateUtil {

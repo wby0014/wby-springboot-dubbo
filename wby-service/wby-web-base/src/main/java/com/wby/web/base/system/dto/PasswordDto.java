@@ -2,7 +2,7 @@ package com.wby.web.base.system.dto;
 
 /**
  * @Description 密码表单
- * @Author JacksonTu
+ * @Author wby
  * @Date 2018/6/11 17:07
  */
 public class PasswordDto {

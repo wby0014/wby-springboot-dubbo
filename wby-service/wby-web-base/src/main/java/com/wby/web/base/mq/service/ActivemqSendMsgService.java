@@ -12,7 +12,7 @@ import java.io.Serializable;
 
 /**
  * @Description ActiveMQ 生产者服务类
- * @Author JacksonTu
+ * @Author wby
  * @Date 2018/5/23 16:01
  */
 @Component

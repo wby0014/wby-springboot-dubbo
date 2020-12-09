@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * @Description 自定义Shiro的Cache
- * @Author JacksonTu
+ * @Author wby
  * @Date 2020/4/5 12:38
  */
 public class ShiroRedisCache<K, V> implements Cache<K, V> {

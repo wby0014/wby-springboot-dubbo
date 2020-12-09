@@ -30,7 +30,7 @@ import java.util.Map;
 
 /**
  * @Description 企业职务配置接口
- * @Author JacksonTu
+ * @Author wby
  * @Date 2018/12/17 11:30
  */
 @Slf4j

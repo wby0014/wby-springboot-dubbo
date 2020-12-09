@@ -7,7 +7,7 @@ import org.quartz.*;
 
 /**
  * @Description 定时任务工具类
- * @Author JacksonTu
+ * @Author wby
  * @Date 2019/1/18 15:59
  **/
 public class ScheduleUtil {

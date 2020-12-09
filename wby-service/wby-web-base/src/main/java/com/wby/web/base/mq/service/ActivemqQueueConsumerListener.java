@@ -4,7 +4,7 @@ import org.springframework.jms.annotation.JmsListener;
 import org.springframework.stereotype.Component;
 
 /**
- * @author JacksonTu
+ * @author wby
  * @version 1.0
  * @description queue模式的消费者
  * @since 2020/11/11 16:11

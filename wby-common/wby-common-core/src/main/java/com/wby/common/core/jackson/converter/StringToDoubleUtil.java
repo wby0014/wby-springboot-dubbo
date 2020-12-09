@@ -11,7 +11,7 @@ import org.apache.commons.lang3.StringUtils;
  * </pre>
  * </code>
  *
- * @author JacksonTu
+ * @author wby
  * @date 2020-04-02
  */
 public class StringToDoubleUtil {

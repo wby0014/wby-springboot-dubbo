@@ -4,7 +4,7 @@ import com.wby.common.core.api.IErrorCode;
 
 /**
  * @Description 自定义异常
- * @Author JacksonTu
+ * @Author wby
  * @Date 2018/12/10 13:59
  */
 

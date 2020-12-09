@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * @Description 表数据
- * @Author JacksonTu
+ * @Author wby
  * @Date 2018/12/21 14:17
  */
 public class TableEntity implements Serializable {

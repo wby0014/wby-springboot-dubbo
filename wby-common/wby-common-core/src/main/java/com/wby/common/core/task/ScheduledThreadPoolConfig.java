@@ -12,7 +12,7 @@ import java.util.concurrent.ThreadPoolExecutor;
 
 /**
  * @Description Spring定时任务线程池配置
- * @Author JacksonTu
+ * @Author wby
  * @Date 2020/4/1 23:45
  */
 @EnableScheduling

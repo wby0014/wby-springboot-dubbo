@@ -9,7 +9,7 @@ import com.wby.common.core.jackson.converter.StringToIntegerUtil;
 import java.io.IOException;
 
 /**
- * @author JacksonTu
+ * @author wby
  * @date 2020-04-02
  */
 public class JacksonIntegerDeserializer extends JsonDeserializer<Integer> {

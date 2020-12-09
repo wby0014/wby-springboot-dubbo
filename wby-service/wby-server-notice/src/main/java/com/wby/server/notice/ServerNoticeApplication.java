@@ -11,12 +11,12 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 
 
 /**
- * @author JacksonTu
+ * @author wby
  * @description Application
  * @date 2017年9月5日下午8:55:08
  */
 @SpringBootApplication
-@MapperScan("com.hdw.server.notice.mapper")
+@MapperScan("com.wby.server.notice.mapper")
 @EnableDubboConfig
 public class ServerNoticeApplication extends SpringBootServletInitializer {
 
@@ -31,7 +31,6 @@ public class ServerNoticeApplication extends SpringBootServletInitializer {
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
         logger.info("----ServerNoticeApplication start----");
         return application.sources(ServerNoticeApplication.class);
-
     }
 
 }

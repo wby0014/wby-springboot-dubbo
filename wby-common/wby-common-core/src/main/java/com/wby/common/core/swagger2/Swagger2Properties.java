@@ -9,12 +9,12 @@ import java.util.List;
 
 /**
  * @Description 自定义swagger2配置
- * @Author JacksonTu
+ * @Author wby
  * @Date 2019/6/1 17:13
  */
 @Data
 @Component
-@ConfigurationProperties(prefix = "hdw.swagger2")
+@ConfigurationProperties(prefix = "wby.swagger2")
 public class Swagger2Properties {
 
     /**

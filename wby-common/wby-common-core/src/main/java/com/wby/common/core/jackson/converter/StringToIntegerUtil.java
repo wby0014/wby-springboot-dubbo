@@ -1,5 +1,5 @@
 /*
- * Copyright 2019-2029 JacksonTu(https://github.com/JacksonTu)
+ * Copyright 2019-2029 wby(https://github.com/wby)
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -26,7 +26,7 @@ import org.apache.commons.lang3.StringUtils;
  * </pre>
  * </code>
  *
- * @author JacksonTu
+ * @author wby
  * @date 2020-04-02
  */
 public class StringToIntegerUtil {

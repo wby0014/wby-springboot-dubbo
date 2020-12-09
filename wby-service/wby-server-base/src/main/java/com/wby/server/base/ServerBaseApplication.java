@@ -8,14 +8,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
-
 /**
- * @author JacksonTu
+ * @author wby
  * @description Application
  * @date 2017年9月5日下午8:55:08
  */
 @SpringBootApplication
-@MapperScan("com.hdw.server.base.*.mapper")
+@MapperScan("com.wby.server.base.*.mapper")
 public class ServerBaseApplication extends SpringBootServletInitializer {
 
     protected final static Logger logger = LoggerFactory.getLogger(ServerBaseApplication.class);
@@ -29,7 +28,6 @@ public class ServerBaseApplication extends SpringBootServletInitializer {
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
         logger.info("----ServerBaseApplication start----");
         return application.sources(ServerBaseApplication.class);
-
     }
 
 }

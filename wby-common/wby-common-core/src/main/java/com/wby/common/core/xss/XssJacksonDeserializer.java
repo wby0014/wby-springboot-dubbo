@@ -11,7 +11,7 @@ import java.io.IOException;
 
 /**
  * @Description Jackson请求参数字符串转义处理
- * @Author JacksonTu
+ * @Author wby
  * @Date 2020/4/1 17:35
  */
 public class XssJacksonDeserializer extends JsonDeserializer<String> {

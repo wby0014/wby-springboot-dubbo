@@ -8,7 +8,7 @@ import java.util.List;
 
 /**
  * @Description vue 树形控件对象
- * @Author JacksonTu
+ * @Author wby
  * @Date 2019/8/8 11:39
  */
 public class TreeVo implements Serializable {

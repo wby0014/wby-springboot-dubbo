@@ -14,7 +14,7 @@ import java.util.Date;
 /**
  * 系统通告表 Entity
  *
- * @author JacksonTu
+ * @author wby
  * @date 2020-10-12 15:02:54
  */
 @TableName("t_sys_notice")

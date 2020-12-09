@@ -15,7 +15,7 @@ import java.time.format.DateTimeFormatter;
  * Jackson LocalDateTime 自定义序列化器
  * </p>
  *
- * @author JacksonTu
+ * @author wby
  * @date 2018/11/8
  */
 public class JacksonLocalDateTimeSerializer extends JsonSerializer<LocalDateTime> {

@@ -30,7 +30,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.Date;
 
 /**
- * @author JacksonTu
+ * @author wby
  * @version 1.0
  * @description redis消息发布服务
  * @since 2020/8/15 10:51

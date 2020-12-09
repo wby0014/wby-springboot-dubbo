@@ -2,7 +2,7 @@ package com.wby.common.core.api;
 
 /**
  * @Description 枚举一些常用API操作码
- * @Author JacksonTu
+ * @Author wby
  * @Date 2020/3/28 16:26
  */
 public enum ResultCode implements IErrorCode {

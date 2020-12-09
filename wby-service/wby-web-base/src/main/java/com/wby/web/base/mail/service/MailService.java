@@ -14,7 +14,7 @@ import javax.mail.internet.MimeMessage;
 
 /**
  * @Description 通用的发送邮件服务
- * @Author JacksonTu
+ * @Author wby
  * @Date 2020/4/2 10:38
  */
 @Slf4j

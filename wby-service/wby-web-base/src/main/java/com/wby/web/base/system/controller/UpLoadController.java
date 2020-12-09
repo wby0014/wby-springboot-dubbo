@@ -24,7 +24,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @author JacksonTu
+ * @author wby
  * @Descriptin 文件上传下载
  * @Date 2018年5月8日 上午10:12:45
  */
@@ -34,13 +34,13 @@ public abstract class UpLoadController {
     /**
      * 文件上传路径前缀
      */
-    @Value("${hdw.file-upload-prefix}")
+    @Value("${wby.file-upload-prefix}")
     private String fileUploadPrefix;
 
     /**
      * 资源访问全路径前缀
      */
-    @Value("${hdw.resource-access-url}")
+    @Value("${wby.resource-access-url}")
     private String resourceAccessUrl;
 
     /**

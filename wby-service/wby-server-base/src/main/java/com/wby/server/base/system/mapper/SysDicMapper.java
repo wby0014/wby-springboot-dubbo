@@ -13,7 +13,7 @@ import java.util.Map;
  * 数据字典 Mapper 接口
  * </p>
  *
- * @author JacksonTu
+ * @author wby
  * @since 2018-04-26
  */
 public interface SysDicMapper extends BaseMapper<SysDic> {

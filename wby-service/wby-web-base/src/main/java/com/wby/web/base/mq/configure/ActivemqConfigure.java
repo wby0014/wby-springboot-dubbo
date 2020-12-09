@@ -13,7 +13,7 @@ import org.springframework.jms.core.JmsTemplate;
 
 /**
  * @Description ActiveMQ配置
- * @Author JacksonTu
+ * @Author wby
  * @Date 2018/5/28 15:05
  */
 @Configuration

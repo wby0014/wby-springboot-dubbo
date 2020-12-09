@@ -8,7 +8,7 @@ import java.util.Map;
 
 /**
  * @Description 定时任务
- * @Author JacksonTu
+ * @Author wby
  * @Date 2018/12/13 10:44
  */
 public interface ScheduleJobMapper extends BaseMapper<ScheduleJobEntity> {

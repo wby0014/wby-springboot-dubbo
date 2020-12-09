@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @Description 定时任务日志
- * @Author JacksonTu
+ * @Author wby
  * @Date 2019/1/18 15:59
  **/
 @Api(value = "定时任务日志接口", tags = {"定时任务日志接口"})

@@ -9,7 +9,7 @@ import java.util.Map;
 
 /**
  * @Description
- * @Author JacksonTu
+ * @Author wby
  * @Date 2019/11/7 14:34
  */
 public interface IBaseService<T> extends IService<T> {

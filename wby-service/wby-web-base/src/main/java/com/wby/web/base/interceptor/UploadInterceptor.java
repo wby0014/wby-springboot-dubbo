@@ -16,7 +16,7 @@ import java.util.stream.Collectors;
 
 /**
  * @Description 上传文件类型拦截器
- * @Author JacksonTu
+ * @Author wby
  * @Date 2019/11/1 13:54
  */
 @Slf4j

@@ -20,7 +20,7 @@ import java.util.Date;
 /**
  * 用户通告阅读标记表 Controller
  *
- * @author JacksonTu
+ * @author wby
  * @date 2020-10-12 15:03:04
  */
 @Slf4j

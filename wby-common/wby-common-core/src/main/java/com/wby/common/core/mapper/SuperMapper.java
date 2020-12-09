@@ -11,7 +11,7 @@ import java.util.Map;
 
 /**
  * @Description
- * @Author JacksonTu
+ * @Author wby
  * @Date 2019/11/7 15:00
  */
 public interface SuperMapper<T> extends BaseMapper<T> {

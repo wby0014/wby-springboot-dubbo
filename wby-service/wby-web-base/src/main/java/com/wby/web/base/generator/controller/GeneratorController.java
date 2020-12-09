@@ -18,7 +18,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.util.Date;
 
 /**
- * @author JacksonTu
+ * @author wby
  * @version 1.0
  * @description
  * @since 2020/11/22 11:43
@@ -54,7 +54,7 @@ public class GeneratorController {
             tableNames = new String[]{tables};
         }
         byte[] data = generatorService.generatorCode(tableNames);
-        String fileName = "hdw_" + DateUtil.format(new Date(), DatePattern.PURE_DATETIME_PATTERN) + ".zip";
+        String fileName = "wby_" + DateUtil.format(new Date(), DatePattern.PURE_DATETIME_PATTERN) + ".zip";
         response.reset();
         response.setHeader(HttpHeaders.CONTENT_DISPOSITION, "attachment;fileName=" + java.net.URLEncoder.encode(fileName, "utf-8"));
         response.addHeader("Content-Length", "" + data.length);

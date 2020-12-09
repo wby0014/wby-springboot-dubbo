@@ -9,12 +9,12 @@ import java.util.List;
 
 /**
  * @Description 拦截器属性
- * @Author JacksonTu
+ * @Author wby
  * @Date 2019/11/1 14:18
  */
 @Data
 @Component
-@ConfigurationProperties(prefix = "hdw.interceptor")
+@ConfigurationProperties(prefix = "wby.interceptor")
 public class InterceptorProperties {
 
     /**

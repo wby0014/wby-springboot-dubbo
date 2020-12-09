@@ -1,8 +1,8 @@
 package com.wby.web.base;
 
 /**
- * @Description com.hdw.test
- * @Author JacksonTu
+ * @Description com.wby.test
+ * @Author wby
  * @Date 2020/4/8 17:26
  */
 public class MyTest {

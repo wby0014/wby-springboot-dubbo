@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletRequestWrapper;
 
 /**
  * @Description XSS 跨站脚本攻击(Cross Site Scripting) 处理
- * @Author JacksonTu
+ * @Author wby
  * @Date 2020/4/1 17:35
  */
 public class XssHttpServletRequestWrapper extends HttpServletRequestWrapper {

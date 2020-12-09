@@ -26,7 +26,7 @@ import java.util.Map;
  * {"sub":"wang","created":1489079981393,"exp":1489684781}
  * signature的生成算法：
  * HMACSHA512(base64UrlEncode(header) + "." +base64UrlEncode(payload),secret)
- * @Author JacksonTu
+ * @Author wby
  * @Date 2020/3/5 19:40
  */
 @Component
@@ -51,18 +51,18 @@ public class JwtTokenUtil {
     /**
      * 秘钥
      */
-    @Value("${hdw.jwt.secret}")
+    @Value("${wby.jwt.secret}")
     private String secret;
     /**
      * 过期时间,单位秒
      */
-    @Value("${hdw.jwt.expiration}")
+    @Value("${wby.jwt.expiration}")
     private long expiration;
 
-    @Value("${hdw.jwt.tokenHeader}")
+    @Value("${wby.jwt.tokenHeader}")
     private String tokenHeader;
 
-    @Value("${hdw.jwt.tokenHead}")
+    @Value("${wby.jwt.tokenHead}")
     private String tokenHead;
 
 

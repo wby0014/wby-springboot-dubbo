@@ -88,8 +88,8 @@ info:
   version: ${project.version}
 
 mybatis-plus:
-  mapper-locations: classpath*:com/hdw/server/base/*/mapper/sqlMapperXml/*Mapper.xml
-  type-aliases-package: com.hdw.api.base.*.entity
+  mapper-locations: classpath*:com.wby/server/base/*/mapper/sqlMapperXml/*Mapper.xml
+  type-aliases-package: com.wby.api.base.*.entity
   configuration:
     map-underscore-to-camel-case: true
     cache-enabled: true

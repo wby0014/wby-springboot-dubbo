@@ -2,7 +2,7 @@ package com.wby.common.core.constant;
 
 /**
  * @Description 公共常量
- * @Author JacksonTu
+ * @Author wby
  * @Date 2019/5/10 13:59
  **/
 public interface CommonConstant {
@@ -165,7 +165,7 @@ public interface CommonConstant {
     /**
      * 签发人
      */
-    String JWT_DEFAULT_ISSUER = "JacksonTu";
+    String JWT_DEFAULT_ISSUER = "wby";
 
     /**
      * 签发的目标
@@ -181,7 +181,7 @@ public interface CommonConstant {
     /**
      * 登录用户Token令牌缓存KEY前缀
      */
-    String JWT_PREFIX_USER_TOKEN = "hdw_user_token_";
+    String JWT_PREFIX_USER_TOKEN = "wby_user_token_";
 
     /**
      * 系统日志类型： 操作

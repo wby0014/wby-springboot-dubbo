@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @author JacksonTu
+ * @author wby
  * @description 日志管理
  * @date 2018年3月6日 上午9:42:00
  */

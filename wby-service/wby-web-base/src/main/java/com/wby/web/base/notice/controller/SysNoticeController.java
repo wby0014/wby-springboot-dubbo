@@ -31,7 +31,7 @@ import java.util.Map;
 /**
  * 系统通告表 Controller
  *
- * @author JacksonTu
+ * @author wby
  * @date 2020-10-12 15:02:54
  */
 @Slf4j

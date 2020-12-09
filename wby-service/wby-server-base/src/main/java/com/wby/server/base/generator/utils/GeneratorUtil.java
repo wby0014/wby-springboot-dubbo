@@ -26,7 +26,7 @@ import java.util.zip.ZipOutputStream;
 /**
  * 代码生成器工具类
  *
- * @Author JacksonTu
+ * @Author wby
  * @email tuminglong@126.com
  * @Date 2018/12/21 14:17
  */

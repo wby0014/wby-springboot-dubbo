@@ -21,7 +21,7 @@ import java.util.List;
 /**
  * 用户通告阅读标记表 Service实现
  *
- * @author JacksonTu
+ * @author wby
  * @date 2020-10-12 15:03:04
  */
 @DubboService

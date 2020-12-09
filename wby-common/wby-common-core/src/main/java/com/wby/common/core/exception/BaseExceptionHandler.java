@@ -10,7 +10,7 @@ import javax.validation.ValidationException;
 
 /**
  * @Description 全局异常处理
- * @Author JacksonTu
+ * @Author wby
  * @Date 2020/3/28 16:41
  */
 @Slf4j

@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 
 /**
  * @Description 运算工具
- * @Author JacksonTu
+ * @Author wby
  * @Date 2020/3/5 19:40
  */
 public final strictfp class MathUtil {

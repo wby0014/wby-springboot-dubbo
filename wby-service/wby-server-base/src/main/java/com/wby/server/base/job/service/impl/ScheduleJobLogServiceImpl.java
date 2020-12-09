@@ -15,7 +15,7 @@ import org.apache.dubbo.config.annotation.DubboService;
 
 /**
  * @Description 定时任务日志服务实现类
- * @Author JacksonTu
+ * @Author wby
  * @Date 2018/12/13 10:44
  */
 @DubboService

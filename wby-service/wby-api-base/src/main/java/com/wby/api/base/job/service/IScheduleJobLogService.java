@@ -9,7 +9,7 @@ import com.wby.common.core.vo.PageVo;
 
 /**
  * @Description 定时任务日志
- * @Author JacksonTu
+ * @Author wby
  * @Date 2019/1/18 15:59
  **/
 public interface IScheduleJobLogService extends IService<ScheduleJobLogEntity> {

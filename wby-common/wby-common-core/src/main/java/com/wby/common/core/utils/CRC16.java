@@ -1,7 +1,7 @@
 package com.wby.common.core.utils;
 
 /**
- * @author JacksonTu
+ * @author wby
  * @description 16进制循环冗余校验码
  * @date 2017年11月15日上午10:49:01
  */

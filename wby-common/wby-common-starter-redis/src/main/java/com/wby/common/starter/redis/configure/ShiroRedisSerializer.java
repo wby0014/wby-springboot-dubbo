@@ -7,7 +7,7 @@ import org.springframework.core.serializer.support.SerializingConverter;
 import org.springframework.data.redis.serializer.RedisSerializer;
 
 /**
- * @author JacksonTu
+ * @author wby
  * @Descriptin redis序列化对象
  * @Date 2018年5月1日 下午3:13:58
  */

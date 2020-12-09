@@ -15,7 +15,7 @@ import java.util.Date;
  * Jackson Date反序列化器
  * </p>
  *
- * @author JacksonTu
+ * @author wby
  * @date 2020-04-02
  */
 public class JacksonDateSerializer extends JsonSerializer<Date> {

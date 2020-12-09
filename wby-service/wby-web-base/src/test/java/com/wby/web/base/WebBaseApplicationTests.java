@@ -18,8 +18,8 @@ import org.springframework.test.context.junit4.SpringRunner;
 import javax.annotation.Resource;
 
 /**
- * @Description com.hdw.pattern
- * @Author JacksonTu
+ * @Description com.wby.pattern
+ * @Author wby
  * @Date 2020/4/8 17:25
  */
 @RunWith(SpringRunner.class)

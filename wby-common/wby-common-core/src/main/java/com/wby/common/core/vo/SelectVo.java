@@ -10,7 +10,7 @@ import java.util.List;
 
 /**
  * @Description vue select选择器对象
- * @Author JacksonTu
+ * @Author wby
  * @Date 2018/6/20 10:38
  */
 @ApiModel("vue select选择器对象")

@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * 用户表
  *
- * @author JacksonTu
+ * @author wby
  * @date 2018-12-11 11:35:15
  */
 public interface SysUserMapper extends SuperMapper<SysUser> {

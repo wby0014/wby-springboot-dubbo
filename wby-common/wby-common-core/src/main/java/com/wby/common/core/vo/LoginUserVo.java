@@ -16,7 +16,7 @@ import java.util.List;
 
 /**
  * @Description 自定义Authentication对象，使得Subject除了携带用户的登录名外还可以携带更多信息
- * @Author JacksonTu
+ * @Author wby
  * @Date 2018/12/12 19:03
  */
 @ApiModel("登录信息")

@@ -147,7 +147,7 @@
     <logger name="java.sql.Statement" level="DEBUG"/>
     <logger name="java.sql.PreparedStatement" level="DEBUG"/>
     <logger name="druid.sql" level="INFO"/>
-    <logger name="com.hdw" level="INFO"/>
+    <logger name="com.wby" level="INFO"/>
 
 
     <springProfile name="dev">

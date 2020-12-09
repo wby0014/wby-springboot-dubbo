@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 /**
  * @Description 列的属性
- * @Author JacksonTu
+ * @Author wby
  * @Date 2018/12/21 14:17
  */
 public class ColumnEntity implements Serializable {

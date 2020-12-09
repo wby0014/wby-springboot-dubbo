@@ -12,7 +12,7 @@ import java.util.Date;
 /**
  * 用户通告阅读标记表 Entity
  *
- * @author JacksonTu
+ * @author wby
  * @date 2020-10-12 15:03:04
  */
 @TableName("t_sys_notice_send")

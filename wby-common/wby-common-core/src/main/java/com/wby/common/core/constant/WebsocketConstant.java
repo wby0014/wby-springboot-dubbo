@@ -1,7 +1,7 @@
 package com.wby.common.core.constant;
 
 /**
- * @author JacksonTu
+ * @author wby
  * @version 1.0
  * @description Websocket常量类
  * @since 2020/10/15 17:02

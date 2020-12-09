@@ -20,7 +20,7 @@ import java.util.Set;
 
 /**
  * @Description Shiro 授权认证
- * @Author JacksonTu
+ * @Author wby
  * @Date 2019/10/31 11:50
  */
 @Slf4j

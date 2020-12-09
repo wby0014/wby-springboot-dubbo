@@ -4,7 +4,7 @@ import com.wby.common.core.api.IErrorCode;
 
 /**
  * @Description 断言处理类，用于抛出各种API异常
- * @Author JacksonTu
+ * @Author wby
  * @Date 2020/3/28 16:41
  */
 public class Asserts {

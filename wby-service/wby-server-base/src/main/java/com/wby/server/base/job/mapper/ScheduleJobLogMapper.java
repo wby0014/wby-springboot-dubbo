@@ -5,7 +5,7 @@ import com.wby.api.base.job.entity.ScheduleJobLogEntity;
 
 /**
  * @Description 定时任务日志
- * @Author JacksonTu
+ * @Author wby
  * @Date 2018/12/13 10:44
  */
 public interface ScheduleJobLogMapper extends BaseMapper<ScheduleJobLogEntity> {

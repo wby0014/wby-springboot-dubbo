@@ -20,7 +20,7 @@ import java.util.UUID;
 
 /**
  * @Description 二维码工具类
- * @Author JacksonTu
+ * @Author wby
  * @Date 2020/3/5 19:40
  */
 public class QRCodeUtil {

@@ -7,7 +7,7 @@ import lombok.Data;
 
 /**
  * @Description 登录表单
- * @Author JacksonTu
+ * @Author wby
  * @Date 2018/6/11 17:07
  */
 @ApiModel(value = "登录参数")

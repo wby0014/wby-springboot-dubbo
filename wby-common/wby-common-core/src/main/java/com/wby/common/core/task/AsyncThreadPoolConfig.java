@@ -10,7 +10,7 @@ import java.util.concurrent.ThreadPoolExecutor;
 
 /**
  * @Description Spring 异步线程池配置
- * @Author JacksonTu
+ * @Author wby
  * @Date 2020/4/3 21:16
  */
 @EnableAsync

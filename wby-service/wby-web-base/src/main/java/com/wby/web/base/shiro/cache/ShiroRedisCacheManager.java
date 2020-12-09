@@ -10,7 +10,7 @@ import java.util.concurrent.ConcurrentMap;
 
 /**
  * @Description 自定义Shiro的缓存管理器
- * @Author JacksonTu
+ * @Author wby
  * @Date 2020/4/5 12:50
  */
 public class ShiroRedisCacheManager implements CacheManager {

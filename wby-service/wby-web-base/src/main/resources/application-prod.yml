@@ -59,7 +59,7 @@ spring:
 
 dubbo:
   application:
-    id: hdw-consumer-base
+    id: wby-consumer-base
     name: ${dubbo.application.id}
     qos:
       enable: false
@@ -71,7 +71,7 @@ dubbo:
     threads: 200
     payload: 52428800
   registry:
-    id: hdw-registry
+    id: wby-registry
     address: zookeeper://127.0.0.1:2181
     file: /output/cache/${dubbo.application.id}.cache
     timeout: 5000
@@ -79,7 +79,7 @@ dubbo:
     check: true
   consumer:
     id: ${dubbo.application.id}
-    group: hdw-base
+    group: wby-base
     version: 1.0.0
     timeout: 60000
     loadbalance: roundrobin
@@ -97,9 +97,9 @@ fdfs:
   trackerList[0]: 127.0.0.1:22122
 
 
-hdw:
+wby:
   # 上传路径配置
-  file-upload-prefix: D:\\Workspaces\\SSM\\src\\hdw-dubbo\\hdw-base-web\\src\\main\\resources\\static
+  file-upload-prefix: D:\\Workspaces\\SSM\\src\\wby-dubbo\\wby-base-web\\src\\main\\resources\\static
   # 资源访问全路径前缀：http://localhost:9090
   resource-access-url: http://localhost:${server.port}${server.servlet.context-path}
   # 拦截器配置

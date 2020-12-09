@@ -57,7 +57,7 @@ info:
   description: ${project.description}
   version: ${project.version}
 
-hdw:
+wby:
   jwt:
     tokenHeader: Authorization #JWT存储的请求头
     tokenHead: Bearer  #JWT负载中拿到开头

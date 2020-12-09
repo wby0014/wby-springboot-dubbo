@@ -9,7 +9,7 @@ import com.wby.common.core.jackson.converter.StringToDoubleUtil;
 import java.io.IOException;
 
 /**
- * @author JacksonTu
+ * @author wby
  * @date 2020-04-02
  */
 public class JacksonDoubleDeserializer extends JsonDeserializer<Double> {

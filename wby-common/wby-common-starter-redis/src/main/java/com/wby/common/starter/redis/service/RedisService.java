@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * 定义常用的 Redis操作
  *
- * @Author JacksonTu
+ * @Author wby
  */
 public class RedisService {
 

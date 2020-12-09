@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * @Description 会话监听器用于监听会话创建、过期及停止事件
- * @Author JacksonTu
+ * @Author wby
  * @Date 2020/4/5 12:09
  */
 @Slf4j

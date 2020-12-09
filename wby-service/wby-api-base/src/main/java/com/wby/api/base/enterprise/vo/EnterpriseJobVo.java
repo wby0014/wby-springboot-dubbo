@@ -11,7 +11,7 @@ import java.util.Date;
 /**
  * 企业职务配置表
  *
- * @author JacksonTu
+ * @author wby
  * @date 2018-12-11 11:36:02
  */
 @ApiModel(value = "企业职务配置表")

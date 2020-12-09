@@ -11,7 +11,7 @@ import java.util.Set;
 
 /**
  * @Description 菜单VO
- * @Author JacksonTu
+ * @Author wby
  * @Date 2019/11/6 14:38
  */
 @ApiModel("菜单VO")

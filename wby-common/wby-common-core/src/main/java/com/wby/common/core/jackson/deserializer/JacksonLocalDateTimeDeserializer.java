@@ -15,7 +15,7 @@ import java.time.format.DateTimeFormatter;
  * Jackson LocaDateTime反序列化器
  * </p>
  *
- * @author JacksonTu
+ * @author wby
  * @date 2020-04-02
  */
 public class JacksonLocalDateTimeDeserializer extends JsonDeserializer<LocalDateTime> {

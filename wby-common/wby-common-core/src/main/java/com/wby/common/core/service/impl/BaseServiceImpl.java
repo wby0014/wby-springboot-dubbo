@@ -14,7 +14,7 @@ import java.util.Map;
 
 /**
  * @Description
- * @Author JacksonTu
+ * @Author wby
  * @Date 2019/11/7 14:35
  */
 public abstract class BaseServiceImpl<M extends SuperMapper<T>, T> extends ServiceImpl<M, T> implements IBaseService<T> {

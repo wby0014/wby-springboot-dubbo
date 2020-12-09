@@ -11,7 +11,7 @@ import java.io.Serializable;
 
 /**
  * @Description 查询参数
- * @Author JacksonTu
+ * @Author wby
  * @Date 2019/11/6 9:22
  */
 @Data

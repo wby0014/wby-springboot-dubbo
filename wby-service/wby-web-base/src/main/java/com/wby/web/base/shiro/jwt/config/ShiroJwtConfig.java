@@ -30,7 +30,7 @@ import java.util.Map;
 
 /**
  * @Description shiro jwt配置
- * @Author JacksonTu
+ * @Author wby
  * @Date 2020/4/5 10:45
  */
 @Configuration
@@ -40,7 +40,7 @@ public class ShiroJwtConfig {
     private RedisTemplate redisTemplate;
 
     //TODO:全局缓存时间，单位为秒
-    @Value("${hdw.jwt.expiration}")
+    @Value("${wby.jwt.expiration}")
     private int cacheLive;
 
     //TODO:全局缓存名称前缀，默认为应用名

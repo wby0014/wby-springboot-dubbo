@@ -26,7 +26,7 @@ import java.util.List;
 
 /**
  * @Description Swagger2配置
- * @Author JacksonTu
+ * @Author wby
  * @Date 2019/11/1 11:57
  */
 @Slf4j
@@ -34,7 +34,7 @@ import java.util.List;
 @EnableSwagger2
 @EnableKnife4j
 @Import(BeanValidatorPluginsConfiguration.class)
-@ConditionalOnProperty(prefix = "hdw.swagger2", name = "enabled", havingValue = "true")
+@ConditionalOnProperty(prefix = "wby.swagger2", name = "enabled", havingValue = "true")
 public class Swagger2Config {
 
     @Resource

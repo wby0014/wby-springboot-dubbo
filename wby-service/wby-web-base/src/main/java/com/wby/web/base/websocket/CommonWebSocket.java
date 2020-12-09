@@ -16,7 +16,7 @@ import java.util.Map;
 import java.util.concurrent.CopyOnWriteArraySet;
 
 /**
- * @author JacksonTu
+ * @author wby
  * @version 1.0
  * @description 公用websocket工具类
  * @since 2020/10/15 16:53

@@ -9,11 +9,9 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
-;
-
 
 /**
- * @author JacksonTu
+ * @author wby
  * @description Application
  * @date 2017年9月5日下午8:55:08
  */
@@ -32,7 +30,6 @@ public class WebBaseApplication extends SpringBootServletInitializer {
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
         logger.info("----WebBaseApplication start----");
         return application.sources(WebBaseApplication.class);
-
     }
 
 }

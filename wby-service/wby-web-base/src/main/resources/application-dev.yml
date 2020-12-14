@@ -18,15 +18,24 @@ spring:
   redisson:
     file: classpath:redisson-single.yaml
 
-  activemq:
-    broker-url: tcp://localhost:61616
-    user: admin
-    password: admin
-    in-memory: false
-    pool:
-      enabled: true
-      max-connections: 100
-      idle-timeout: 30s
+#  activemq:
+#    broker-url: tcp://localhost:61616
+#    user: admin
+#    password: admin
+#    in-memory: false
+#    pool:
+#      enabled: true
+#      max-connections: 100
+#      idle-timeout: 30s
+
+#  rocketmq:
+#   nameServer: 47.92.115.58:9876
+#   producer:
+#    group: wby-producer-group
+  rocketmq:
+    nameServer: 47.92.115.58:9876
+    producer:
+      group: wby-producer-group
 
   mail:
     protocol: smtp

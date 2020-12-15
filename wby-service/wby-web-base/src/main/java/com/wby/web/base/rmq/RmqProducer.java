@@ -1,11 +1,13 @@
 package com.wby.web.base.rmq;
 
-import io.swagger.annotations.Api;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.rocketmq.client.producer.SendCallback;
+import org.apache.rocketmq.client.producer.SendResult;
 import org.apache.rocketmq.spring.core.RocketMQTemplate;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.messaging.support.MessageBuilder;
+import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 
@@ -15,17 +17,52 @@ import javax.annotation.Resource;
  * @Author wuby31052
  */
 @Slf4j
-@Api(value = "rmq生产者", tags = {"rmq生产者"})
-@RestController
-@RequestMapping("/rmq")
+@Service
 public class RmqProducer {
 
     @Resource
     private RocketMQTemplate rocketMQTemplate;
 
-    @GetMapping("/send")
-    public void send() {
-        rocketMQTemplate.convertAndSend("first-topic", "你好,Java旅途");
+    @Value("${rocketmq.producer.send-message-timeout}")
+    private Integer messageTimeOut;
+
+    /**
+     * 发送普通消息
+     */
+    public void sendMsg(String msgBody) {
+        rocketMQTemplate.syncSend("queue_test_topic", MessageBuilder.withPayload(msgBody).build());
+    }
+
+    /**
+     * 发送异步消息 在SendCallback中可处理相关成功失败时的逻辑
+     */
+    public void sendAsyncMsg(String msgBody) {
+        rocketMQTemplate.asyncSend("queue_test_topic", MessageBuilder.withPayload(msgBody).build(), new SendCallback() {
+            @Override
+            public void onSuccess(SendResult sendResult) {
+                // 处理消息发送成功逻辑
+            }
+
+            @Override
+            public void onException(Throwable e) {
+                // 处理消息发送异常逻辑
+            }
+        });
+    }
+
+    /**
+     * 发送延时消息<br/>
+     * 在start版本中 延时消息一共分为18个等级分别为：1s 5s 10s 30s 1m 2m 3m 4m 5m 6m 7m 8m 9m 10m 20m 30m 1h 2h<br/>
+     */
+    public void sendDelayMsg(String msgBody, Integer delayLevel) {
+        rocketMQTemplate.syncSend("queue_test_topic", MessageBuilder.withPayload(msgBody).build(), messageTimeOut, delayLevel);
+    }
+
+    /**
+     * 发送带tag的消息,直接在topic后面加上":tag"
+     */
+    public void sendTagMsg(String msgBody) {
+        rocketMQTemplate.syncSend("queue_test_topic:tag1", MessageBuilder.withPayload(msgBody).build());
     }
 
 }

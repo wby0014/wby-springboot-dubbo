@@ -1,6 +1,6 @@
 #### wby-springboot-dubbo
 + wby-springboot-dubbo微服务开发平台，具有统一授权、认证后台管理系统，其中包含具备用户管理、资源权限管理等多个模块，支持多业务系统并行开发，可以作为后端服务的开发脚手架。代码简洁，架构清晰，适合学习和直接项目中使用。
-+ 核心技术采用SpringBoot、Dubbo、Mybatis、Mybatis-plus、Druid、Redis、ActiveMQ、Quartz、JWT Token等主要框架和中间件。前端采用vue-element-ui组件。
++ 核心技术采用SpringBoot、Dubbo、Mybatis、Mybatis-plus、Druid、Redis、ActiveMQ、RocketMQ、Quartz、JWT Token等主要框架和中间件。前端采用vue-element-ui组件。
 + 前后端分离，通过token进行数据交互，可独立部署
 + 灵活的权限控制，可控制到页面或按钮，满足绝大部分的权限需求
 + 页面交互使用Vue2.x，极大的提高了开发效率
@@ -30,11 +30,11 @@ wby-springboot-dubbo
     ├── web-base                           -- wby-base-web脚本
 
 ├── docs                               -- 文档及脚本
-    ├── config                         -- dubbo控制台
-    ├── img                            -- 系统图片截图  
-    ├── sql                            -- sql文件  
+    ├── config                             -- dubbo控制台
+    ├── img                                -- 系统图片截图  
+    ├── sql                                -- sql文件  
      
-├── wby-common                        -- 通用模块
+├── wby-common                         -- 通用模块
     ├── wby-common-core                        -- 系统核心包
     ├── wby-common-starter-datasource          -- 系统数据库自动装配starter  
     ├── wby-common-starter-redis               -- 系统redis自动装配starter
@@ -45,7 +45,7 @@ wby-springboot-dubbo
     ├── wby-api-notice                         -- 系统消息服务接口
     ├── wby-server-notice                      -- 系统消息服务提供者服务器[port = 8182]
     ├── wby-web-base                           -- 服务消费者服务器[port = 8190]
-├── wby-monitor                       -- SpringBootAdmin监控服务[port = 8180]
+├── wby-monitor                        -- SpringBootAdmin监控服务[port = 8180]
 ```
 
 
@@ -55,8 +55,9 @@ wby-springboot-dubbo
     + Java1.8  (v1.8.0_131+)
     + Zookeeper服务发现和注册中心(v3.4.14+)<a href="https://mirrors.tuna.tsinghua.edu.cn/apache/zookeeper/zookeeper-3.4.14/zookeeper-3.4.14.tar.gz">下载地址</a>
     + Redis (v3.2.100+)
-    + ActiveMQ(v5.15.8+)<a href="http://activemq.apache.org/components/classic/download/" target="_blank">下载地址</a>
-    + RabbitMq (v3.7+)（需安装rabbitmq_delayed_message_exchange插件 <a href="https://www.rabbitmq.com/community-plugins.html" target="_blank">下载地址</a>）
+    + ActiveMQ (v5.15.8+)<a href="http://activemq.apache.org/components/classic/download/" target="_blank">下载地址</a>
+    + RabbitMQ (v3.7+)（需安装rabbitmq_delayed_message_exchange插件 <a href="https://www.rabbitmq.com/community-plugins.html" target="_blank">下载地址</a>）
+    + RocketMQ (v4.0+)
     + Mysql (v5.7.26+)
     + Maven (v3+)
     + Nodejs (v10.16.0+)
@@ -68,7 +69,7 @@ wby-springboot-dubbo
 3. 启动Zookeeper服务发现和注册中心
     +
 
-4. 启动ActiveMQ
+4. 启动RocketMQ
    +
 
 5. 初始化maven项目  

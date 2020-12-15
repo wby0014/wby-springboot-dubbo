@@ -29,15 +29,15 @@ spring:
       # driver-class-name: com.mysql.cj.jdbc.Driver
       # url: jdbc:mysql://127.0.0.1:3306/wby-springboot-dubbo?autoReconnect=true&useSSL=false&useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
       driver-class-name: com.p6spy.engine.spy.P6SpyDriver
-      url: jdbc:p6spy:mysql://10.20.26.247:33061/wby-springboot-dubbo?autoReconnect=true&useSSL=false&useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+      url: jdbc:p6spy:mysql://47.92.115.58:3306/wby-springboot-dubbo?autoReconnect=true&useSSL=false&useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
       username: root
-      password: mysql
+      password: 123456
 
   redis:
     database: 0
-    host: 127.0.0.1
+    host: 47.92.115.58
     port: 6379
-    password:
+    password: redis123
     timeout: 3600ms
     #    cluster:
     #      max-redirects: 3
@@ -74,11 +74,13 @@ dubbo:
     port: 20880
   registry:
     id: wby-registry
-    address: zookeeper://127.0.0.1:2181
+    address: zookeeper://47.92.115.58:2181
     file: /output/cache/${dubbo.application.id}.cache
-    timeout: 5000
+    timeout: 10000
     session: 60000
     check: true
+    parameters:
+      init.timeout: 90000
   provider:
     id: ${dubbo.application.id}
     protocol: ${dubbo.protocol.name}

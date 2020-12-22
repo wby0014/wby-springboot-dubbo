@@ -1,5 +1,5 @@
 # wby-server-notice docker配置
-FROM frolvlad/alpine-oraclejdk8
+FROM carsharing/alpine-oraclejdk8-bash
 
 MAINTAINER wby0014 (1006427479@qq.com)
 

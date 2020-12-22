@@ -14,6 +14,12 @@ import java.util.List;
  */
 public interface SysUserMapper extends SuperMapper<SysUser> {
 
+    /**
+     * 根据登录名获取用户
+     *
+     * @param loginName
+     * @return
+     */
     SysUser selectByLoginName(@Param("loginName") String loginName);
 
     /**

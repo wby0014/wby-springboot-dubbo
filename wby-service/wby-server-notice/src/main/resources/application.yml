@@ -58,7 +58,7 @@ info:
   version: ${project.version}
 
 mybatis-plus:
-  mapper-locations: classpath*:com.wby/server/*/mapper/sqlMapperXml/*Mapper.xml
+  mapper-locations: classpath*:com/wby/server/*/mapper/sqlMapperXml/*Mapper.xml
   type-aliases-package: com.wby.api.notice.entity
   configuration:
     map-underscore-to-camel-case: true

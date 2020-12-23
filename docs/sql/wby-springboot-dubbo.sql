@@ -287,7 +287,7 @@ CREATE TABLE `t_enterprise`  (
 -- ----------------------------
 -- Records of t_enterprise
 -- ----------------------------
-INSERT INTO `t_enterprise` VALUES (1, '20181218', '96', '测试企业1', '0', '0', 1, '13888888888', 'tuminglong@126.com', '430071', '测试人', '测试人', '13888888888', '100', '100', '100', '测试', 0, '2018-12-18 10:56:46', '2020-04-08 18:46:02', NULL, 'admin');
+INSERT INTO `t_enterprise` VALUES (1, '20181218', '96', '测试企业1', '0', '0', 1, '15266668888', '2323409467@qq.com', '430071', '测试人', '测试人', '15266668888', '100', '100', '100', '测试', 0, '2018-12-18 10:56:46', '2020-04-08 18:46:02', NULL, 'admin');
 
 -- ----------------------------
 -- Table structure for t_enterprise_department
@@ -484,10 +484,10 @@ CREATE TABLE `t_sys_notice`  (
 -- ----------------------------
 -- Records of t_sys_notice
 -- ----------------------------
-INSERT INTO `t_sys_notice` VALUES (4, '测试1', '测试1', '测试', '2020-10-14 15:20:00', '2020-12-31 23:59:59', 'H', '2', 'ALL', '1', '2020-11-22 17:45:22', NULL, NULL, NULL, NULL, NULL, NULL, 'admin', '2020-09-21 15:19:22', 'admin', '2020-11-22 17:45:22', '0');
-INSERT INTO `t_sys_notice` VALUES (5, '测试2', '测试2', '测试2', '2020-10-14 11:20:00', '2020-12-31 23:59:59', 'H', '1', 'ALL', '1', '2020-11-22 17:45:14', NULL, NULL, NULL, NULL, NULL, NULL, 'admin', '2020-09-21 16:58:50', 'admin', '2020-11-22 17:45:14', '0');
-INSERT INTO `t_sys_notice` VALUES (6, '测试3', '测试3', '测试3', '2020-10-14 11:20:00', '2020-12-31 23:59:59', 'L', '2', 'ALL', '1', '2020-11-22 17:45:01', NULL, NULL, NULL, NULL, NULL, NULL, 'admin', '2020-09-21 17:22:47', 'admin', '2020-11-22 17:45:01', '0');
-INSERT INTO `t_sys_notice` VALUES (7, '测试4', '测试4', '测试4', '2020-10-14 11:30:00', '2020-12-31 23:59:59', 'H', '1', 'ALL', '2', '2020-11-22 17:44:39', '2020-11-22 18:31:24', NULL, NULL, NULL, NULL, NULL, 'admin', '2020-10-14 11:28:14', 'admin', '2020-11-22 18:31:24', '0');
+INSERT INTO `t_sys_notice` VALUES (4, '测试1', '测试1', '测试', '2020-10-14 15:20:00', '2020-12-31 23:59:59', 'H', '2', 'ALL', '1', '2020-12-12 17:45:22', NULL, NULL, NULL, NULL, NULL, NULL, 'admin', '2020-09-21 15:19:22', 'admin', '2020-12-12 17:45:22', '0');
+INSERT INTO `t_sys_notice` VALUES (5, '测试2', '测试2', '测试2', '2020-10-14 11:20:00', '2020-12-31 23:59:59', 'H', '1', 'ALL', '1', '2020-12-12 17:45:14', NULL, NULL, NULL, NULL, NULL, NULL, 'admin', '2020-09-21 16:58:50', 'admin', '2020-12-12 17:45:14', '0');
+INSERT INTO `t_sys_notice` VALUES (6, '测试3', '测试3', '测试3', '2020-10-14 11:20:00', '2020-12-31 23:59:59', 'L', '2', 'ALL', '1', '2020-12-12 17:45:01', NULL, NULL, NULL, NULL, NULL, NULL, 'admin', '2020-09-21 17:22:47', 'admin', '2020-12-12 17:45:01', '0');
+INSERT INTO `t_sys_notice` VALUES (7, '测试4', '测试4', '测试4', '2020-10-14 11:30:00', '2020-12-31 23:59:59', 'H', '1', 'ALL', '2', '2020-12-12 17:44:39', '2020-12-12 18:31:24', NULL, NULL, NULL, NULL, NULL, 'admin', '2020-10-14 11:28:14', 'admin', '2020-12-12 18:31:24', '0');
 
 -- ----------------------------
 -- Table structure for t_sys_notice_send
@@ -509,10 +509,10 @@ CREATE TABLE `t_sys_notice_send`  (
 -- ----------------------------
 -- Records of t_sys_notice_send
 -- ----------------------------
-INSERT INTO `t_sys_notice_send` VALUES (12, 4, 1, '0', NULL, 'admin', '2020-11-22 17:48:14', 'admin', '2020-11-22 17:48:14');
-INSERT INTO `t_sys_notice_send` VALUES (13, 5, 1, '0', NULL, 'admin', '2020-11-22 17:48:14', 'admin', '2020-11-22 17:48:14');
-INSERT INTO `t_sys_notice_send` VALUES (14, 6, 1, '0', NULL, 'admin', '2020-11-22 17:48:14', 'admin', '2020-11-22 17:48:14');
-INSERT INTO `t_sys_notice_send` VALUES (15, 7, 1, '0', NULL, 'admin', '2020-11-22 17:48:14', 'admin', '2020-11-22 17:48:14');
+INSERT INTO `t_sys_notice_send` VALUES (12, 4, 1, '0', NULL, 'admin', '2020-12-12 17:48:14', 'admin', '2020-12-12 17:48:14');
+INSERT INTO `t_sys_notice_send` VALUES (13, 5, 1, '0', NULL, 'admin', '2020-12-12 17:48:14', 'admin', '2020-12-12 17:48:14');
+INSERT INTO `t_sys_notice_send` VALUES (14, 6, 1, '0', NULL, 'admin', '2020-12-12 17:48:14', 'admin', '2020-12-12 17:48:14');
+INSERT INTO `t_sys_notice_send` VALUES (15, 7, 1, '0', NULL, 'admin', '2020-12-12 17:48:14', 'admin', '2020-12-12 17:48:14');
 
 -- ----------------------------
 -- Table structure for t_sys_resource
@@ -559,8 +559,8 @@ INSERT INTO `t_sys_resource` VALUES (132, 13, '添加', 'sys/user/save', '用户
 INSERT INTO `t_sys_resource` VALUES (133, 13, '编辑', 'sys/user/update', '用户编辑', '', 3, 2, 0, '2018-12-13 19:32:40', '2018-12-13 19:32:40', NULL, NULL);
 INSERT INTO `t_sys_resource` VALUES (134, 13, '删除', 'sys/user/delete', '用户删除', '', 4, 2, 0, '2018-12-13 19:32:40', '2018-12-13 19:32:40', NULL, NULL);
 INSERT INTO `t_sys_resource` VALUES (135, 13, '信息', 'sys/user/info', '用户信息', NULL, 5, 2, 0, '2018-12-14 14:05:39', '2018-12-14 14:05:41', NULL, NULL);
-INSERT INTO `t_sys_resource` VALUES (227, 1, '日志管理', 'sys/log', '日志管理', 'log', 8, 1, 0, '2020-11-22 16:51:28', '2020-11-22 16:51:28', NULL, 'admin');
-INSERT INTO `t_sys_resource` VALUES (228, 1, 'Druid监控', 'http://localhost:8181/druid', 'Druid监控', 'sql', 10, 1, 0, '2020-11-22 16:52:33', '2020-11-22 16:52:34', NULL, 'admin');
+INSERT INTO `t_sys_resource` VALUES (227, 1, '日志管理', 'sys/log', '日志管理', 'log', 8, 1, 0, '2020-12-12 16:51:28', '2020-12-12 16:51:28', NULL, 'admin');
+INSERT INTO `t_sys_resource` VALUES (228, 1, 'Druid监控', 'http://localhost:8181/druid', 'Druid监控', 'sql', 10, 1, 0, '2020-12-12 16:52:33', '2020-12-12 16:52:34', NULL, 'admin');
 INSERT INTO `t_sys_resource` VALUES (234, 1, '字典管理', 'sys/dic', '字典管理', 'menu', 4, 1, 0, '2018-12-17 19:12:03', '2018-12-17 19:12:04', NULL, 'admin');
 INSERT INTO `t_sys_resource` VALUES (235, 234, '数据字典列表', 'sys/dic/list', '数据字典列表', '', 0, 2, 0, '2018-12-13 19:37:23', '2018-12-13 19:37:23', NULL, NULL);
 INSERT INTO `t_sys_resource` VALUES (236, 234, '添加', 'sys/dic/save', '数据字典添加', '', 1, 2, 0, '2018-12-13 19:37:03', '2018-12-13 19:37:03', NULL, NULL);
@@ -583,8 +583,8 @@ INSERT INTO `t_sys_resource` VALUES (252, 250, '添加', 'enterprise/enterprise/
 INSERT INTO `t_sys_resource` VALUES (253, 250, '编辑', 'enterprise/enterprise/update', '编辑', '', 3, 2, 0, '2018-12-17 15:27:14', NULL, 'admin', NULL);
 INSERT INTO `t_sys_resource` VALUES (254, 250, '删除', 'enterprise/enterprise/delete', '删除', '', 4, 2, 0, '2018-12-17 15:27:35', NULL, 'admin', NULL);
 INSERT INTO `t_sys_resource` VALUES (255, 250, '信息', 'enterprise/enterprise/info', '信息', '', 5, 2, 0, '2018-12-17 15:28:04', NULL, 'admin', NULL);
-INSERT INTO `t_sys_resource` VALUES (256, 249, '企业部门管理', 'enterprise/enterpriseDepartment', '企业部门管理', 'menu', 2, 1, 0, '2020-11-22 14:23:26', '2020-11-22 14:23:26', 'admin', 'admin');
-INSERT INTO `t_sys_resource` VALUES (257, 249, '企业职务管理', 'enterprise/enterpriseJob', '企业职务管理', 'menu', 3, 1, 0, '2020-11-22 14:23:42', '2020-11-22 14:23:42', 'admin', 'admin');
+INSERT INTO `t_sys_resource` VALUES (256, 249, '企业部门管理', 'enterprise/enterpriseDepartment', '企业部门管理', 'menu', 2, 1, 0, '2020-12-12 14:23:26', '2020-12-12 14:23:26', 'admin', 'admin');
+INSERT INTO `t_sys_resource` VALUES (257, 249, '企业职务管理', 'enterprise/enterpriseJob', '企业职务管理', 'menu', 3, 1, 0, '2020-12-12 14:23:42', '2020-12-12 14:23:42', 'admin', 'admin');
 INSERT INTO `t_sys_resource` VALUES (258, 256, '列表', 'enterprise/enterpriseDepartment/list', '企业部门列表', '', 1, 2, 0, '2018-12-17 19:05:51', NULL, 'admin', NULL);
 INSERT INTO `t_sys_resource` VALUES (259, 256, '添加', 'enterprise/enterpriseDepartment/save', '企业部门添加', '', 2, 2, 0, '2018-12-17 19:06:09', NULL, 'admin', NULL);
 INSERT INTO `t_sys_resource` VALUES (260, 256, '编辑', 'enterprise/enterpriseDepartment/update', '企业部门编辑', '', 3, 2, 0, '2018-12-17 19:06:34', NULL, 'admin', NULL);
@@ -595,16 +595,16 @@ INSERT INTO `t_sys_resource` VALUES (264, 257, '添加', 'enterprise/enterpriseJ
 INSERT INTO `t_sys_resource` VALUES (265, 257, '编辑', 'enterprise/enterpriseJob/update', '企业职务编辑', '', 3, 2, 0, '2018-12-17 19:09:20', NULL, 'admin', NULL);
 INSERT INTO `t_sys_resource` VALUES (266, 257, '删除', 'enterprise/enterpriseJob/delete', '企业职务删除', '', 4, 2, 0, '2018-12-17 19:09:48', NULL, 'admin', NULL);
 INSERT INTO `t_sys_resource` VALUES (267, 257, '信息', 'enterprise/enterpriseJob/info', '企业职务信息', '', 5, 2, 0, '2018-12-17 19:10:15', NULL, 'admin', NULL);
-INSERT INTO `t_sys_resource` VALUES (268, 1, 'API接口', 'http://localhost:8190/doc.html', 'API接口', 'config', 9, 1, 0, '2020-11-22 19:06:09', '2020-11-22 19:06:09', 'admin', 'admin');
-INSERT INTO `t_sys_resource` VALUES (269, 1, '系统通知', 'notice/sysNotice', '系统通知', 'tixing', 6, 1, 0, '2020-11-22 17:34:07', '2020-11-22 17:34:07', 'admin', 'admin');
-INSERT INTO `t_sys_resource` VALUES (1193731450753265666, 1, '代码生成', 'generator/generator', '代码生成', 'bianji', 7, 1, 0, '2020-11-22 16:51:36', '2020-11-22 16:51:37', 'admin', 'admin');
-INSERT INTO `t_sys_resource` VALUES (1193731450753265667, 269, '列表', 'notice/list', '列表', '', 1, 2, 0, '2020-11-22 16:55:21', NULL, 'admin', NULL);
-INSERT INTO `t_sys_resource` VALUES (1193731450753265668, 269, '添加', 'notice/save', '添加', '', 2, 2, 0, '2020-11-22 16:58:21', NULL, 'admin', NULL);
-INSERT INTO `t_sys_resource` VALUES (1193731450753265669, 269, '编辑', 'notice/update', '编辑', '', 3, 2, 0, '2020-11-22 16:58:55', NULL, 'admin', NULL);
-INSERT INTO `t_sys_resource` VALUES (1193731450753265670, 269, '删除', 'notice/delete', '删除', '', 4, 2, 0, '2020-11-22 16:59:20', NULL, 'admin', NULL);
-INSERT INTO `t_sys_resource` VALUES (1193731450753265671, 269, '信息', 'notice/info', '信息', '', 5, 2, 0, '2020-11-22 17:00:01', NULL, 'admin', NULL);
-INSERT INTO `t_sys_resource` VALUES (1193731450753265672, 269, '发布', 'notice/release', '发布', '', 6, 2, 0, '2020-11-22 17:40:40', '2020-11-22 17:40:41', 'admin', 'admin');
-INSERT INTO `t_sys_resource` VALUES (1193731450753265673, 269, '撤销', 'notice/revoke', '撤销', '', 7, 2, 0, '2020-11-22 17:01:40', NULL, 'admin', NULL);
+INSERT INTO `t_sys_resource` VALUES (268, 1, 'API接口', 'http://localhost:8190/doc.html', 'API接口', 'config', 9, 1, 0, '2020-12-12 19:06:09', '2020-12-12 19:06:09', 'admin', 'admin');
+INSERT INTO `t_sys_resource` VALUES (269, 1, '系统通知', 'notice/sysNotice', '系统通知', 'tixing', 6, 1, 0, '2020-12-12 17:34:07', '2020-12-12 17:34:07', 'admin', 'admin');
+INSERT INTO `t_sys_resource` VALUES (1193731450753265666, 1, '代码生成', 'generator/generator', '代码生成', 'bianji', 7, 1, 0, '2020-12-12 16:51:36', '2020-12-12 16:51:37', 'admin', 'admin');
+INSERT INTO `t_sys_resource` VALUES (1193731450753265667, 269, '列表', 'notice/list', '列表', '', 1, 2, 0, '2020-12-12 16:55:21', NULL, 'admin', NULL);
+INSERT INTO `t_sys_resource` VALUES (1193731450753265668, 269, '添加', 'notice/save', '添加', '', 2, 2, 0, '2020-12-12 16:58:21', NULL, 'admin', NULL);
+INSERT INTO `t_sys_resource` VALUES (1193731450753265669, 269, '编辑', 'notice/update', '编辑', '', 3, 2, 0, '2020-12-12 16:58:55', NULL, 'admin', NULL);
+INSERT INTO `t_sys_resource` VALUES (1193731450753265670, 269, '删除', 'notice/delete', '删除', '', 4, 2, 0, '2020-12-12 16:59:20', NULL, 'admin', NULL);
+INSERT INTO `t_sys_resource` VALUES (1193731450753265671, 269, '信息', 'notice/info', '信息', '', 5, 2, 0, '2020-12-12 17:00:01', NULL, 'admin', NULL);
+INSERT INTO `t_sys_resource` VALUES (1193731450753265672, 269, '发布', 'notice/release', '发布', '', 6, 2, 0, '2020-12-12 17:40:40', '2020-12-12 17:40:41', 'admin', 'admin');
+INSERT INTO `t_sys_resource` VALUES (1193731450753265673, 269, '撤销', 'notice/revoke', '撤销', '', 7, 2, 0, '2020-12-12 17:01:40', NULL, 'admin', NULL);
 
 -- ----------------------------
 -- Table structure for t_sys_role
@@ -625,11 +625,11 @@ CREATE TABLE `t_sys_role`  (
 -- ----------------------------
 -- Records of t_sys_role
 -- ----------------------------
-INSERT INTO `t_sys_role` VALUES (1, 'admin', 1, '超级管理员', 0, '2020-11-22 17:44:03', '2020-11-22 17:44:04', 1);
-INSERT INTO `t_sys_role` VALUES (2, '应用管理员', 2, '应用管理员', 0, '2020-11-22 17:05:58', '2020-11-22 17:05:59', 1);
-INSERT INTO `t_sys_role` VALUES (3, '测试人员', 3, '测试人员', 0, '2020-11-22 17:06:30', '2020-11-22 17:06:31', 1);
-INSERT INTO `t_sys_role` VALUES (4, '运维人员', 4, '运维人员', 0, '2020-11-22 17:07:29', '2020-11-22 17:07:29', 1);
-INSERT INTO `t_sys_role` VALUES (5, '运营人员', 5, '运营人员', 0, '2020-11-22 17:08:15', '2020-11-22 17:08:16', 1);
+INSERT INTO `t_sys_role` VALUES (1, 'admin', 1, '超级管理员', 0, '2020-12-12 17:44:03', '2020-12-12 17:44:04', 1);
+INSERT INTO `t_sys_role` VALUES (2, '应用管理员', 2, '应用管理员', 0, '2020-12-12 17:05:58', '2020-12-12 17:05:59', 1);
+INSERT INTO `t_sys_role` VALUES (3, '测试人员', 3, '测试人员', 0, '2020-12-12 17:06:30', '2020-12-12 17:06:31', 1);
+INSERT INTO `t_sys_role` VALUES (4, '运维人员', 4, '运维人员', 0, '2020-12-12 17:07:29', '2020-12-12 17:07:29', 1);
+INSERT INTO `t_sys_role` VALUES (5, '运营人员', 5, '运营人员', 0, '2020-12-12 17:08:15', '2020-12-12 17:08:16', 1);
 
 -- ----------------------------
 -- Table structure for t_sys_role_resource
@@ -966,9 +966,9 @@ CREATE TABLE `t_sys_user`  (
 -- ----------------------------
 -- Records of t_sys_user
 -- ----------------------------
-INSERT INTO `t_sys_user` VALUES (1, 'admin', 'admin', 'b2ccd2d71e04f7dd479d79c5fe886c8f', 'b4752b4b73034de06afb2db30fe19061', 0, '18627026982', 'tuminglong@126.com', 0, 0, 0, NULL, NULL, NULL, 0, '2020-11-21 18:53:13', '2020-11-21 18:53:13', 1);
-INSERT INTO `t_sys_user` VALUES (2, 'test', 'test', '271071d3b814220a33bbf85b619418c8', '13608cadcaf242a5b8130182ef8c8d84', 0, '18627026982', 'tuminglong@126.com', 1, 0, 0, NULL, NULL, NULL, 1, '2020-11-21 18:53:13', '2020-11-21 18:53:13', 1);
-INSERT INTO `t_sys_user` VALUES (3, 'manager', 'manager', '4259eb4f7386e2145699fac9e4b127af', '5d0fa374af44f73972c4a75c5a746fa7', 0, '18627026982', 'tuminglong@126.com', 2, 0, 1, NULL, NULL, NULL, 1, '2020-11-21 18:53:13', '2020-11-21 18:53:13', 1);
+INSERT INTO `t_sys_user` VALUES (1, 'admin', 'admin', 'b2ccd2d71e04f7dd479d79c5fe886c8f', 'b4752b4b73034de06afb2db30fe19061', 0, '18627026982', '2323409467@qq.com', 0, 0, 0, NULL, NULL, NULL, 0, '2020-11-21 18:53:13', '2020-11-21 18:53:13', 1);
+INSERT INTO `t_sys_user` VALUES (2, 'test', 'test', '271071d3b814220a33bbf85b619418c8', '13608cadcaf242a5b8130182ef8c8d84', 0, '18627026982', '2323409467@qq.com', 1, 0, 0, NULL, NULL, NULL, 1, '2020-11-21 18:53:13', '2020-11-21 18:53:13', 1);
+INSERT INTO `t_sys_user` VALUES (3, 'manager', 'manager', '4259eb4f7386e2145699fac9e4b127af', '5d0fa374af44f73972c4a75c5a746fa7', 0, '18627026982', '2323409467@qq.com', 2, 0, 1, NULL, NULL, NULL, 1, '2020-11-21 18:53:13', '2020-11-21 18:53:13', 1);
 
 -- ----------------------------
 -- Table structure for t_sys_user_enterprise

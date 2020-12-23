@@ -77,7 +77,7 @@
                 <version>${spring-boot.version}</version>
                 <configuration>
                     <fork>true</fork>
-                    <outputDirectory>../docker/server-base</outputDirectory>
+                    <outputDirectory>../../docker/server-base</outputDirectory>
                 </configuration>
                 <executions>
                     <execution>

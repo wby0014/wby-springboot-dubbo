@@ -18,6 +18,7 @@ spring:
       stat-view-servlet:
         enabled: true
         url-pattern: /druid/*
+        allow:
       filter:
         stat:
           log-slow-sql: true

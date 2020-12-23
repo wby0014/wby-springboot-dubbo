@@ -204,7 +204,7 @@
                 <version>${spring-boot.version}</version>
                 <configuration>
                     <fork>true</fork>
-                    <outputDirectory>../docker/web-base</outputDirectory>
+                    <outputDirectory>../../docker/web-base</outputDirectory>
                 </configuration>
                 <executions>
                     <execution>

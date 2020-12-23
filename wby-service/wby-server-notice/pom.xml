@@ -64,7 +64,7 @@
                 <version>${spring-boot.version}</version>
                 <configuration>
                     <fork>true</fork>
-                    <outputDirectory>../docker/server-notice</outputDirectory>
+                    <outputDirectory>../../docker/server-notice</outputDirectory>
                 </configuration>
                 <executions>
                     <execution>

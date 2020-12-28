@@ -539,9 +539,9 @@ CREATE TABLE `t_sys_resource`  (
 -- Records of t_sys_resource
 -- ----------------------------
 INSERT INTO `t_sys_resource` VALUES (1, 0, '系统管理', '', '系统管理', 'config', 3, 0, 0, '2019-08-01 15:16:55', '2019-08-01 15:16:55', NULL, 'admin');
-INSERT INTO `t_sys_resource` VALUES (11, 1, '菜单管理', 'sys/menu', '菜单管理', 'menu', 3, 1, 0, '2019-08-08 15:47:19', '2019-08-08 15:47:19', NULL, 'admin');
-INSERT INTO `t_sys_resource` VALUES (12, 1, '角色管理', 'sys/role', '角色管理', 'role', 2, 1, 0, '2018-12-17 19:11:24', '2018-12-17 19:11:25', NULL, 'admin');
-INSERT INTO `t_sys_resource` VALUES (13, 1, '用户管理', 'sys/user', '用户管理', 'admin', 1, 1, 0, '2018-12-17 19:11:13', '2018-12-17 19:11:14', NULL, 'admin');
+INSERT INTO `t_sys_resource` VALUES (11, 1, '菜单管理', 'modules/sys/menu', '菜单管理', 'menu', 3, 1, 0, '2019-08-08 15:47:19', '2019-08-08 15:47:19', NULL, 'admin');
+INSERT INTO `t_sys_resource` VALUES (12, 1, '角色管理', 'modules/sys/role', '角色管理', 'role', 2, 1, 0, '2018-12-17 19:11:24', '2018-12-17 19:11:25', NULL, 'admin');
+INSERT INTO `t_sys_resource` VALUES (13, 1, '用户管理', 'modules/sys/user', '用户管理', 'admin', 1, 1, 0, '2018-12-17 19:11:13', '2018-12-17 19:11:14', NULL, 'admin');
 INSERT INTO `t_sys_resource` VALUES (111, 11, '列表', 'sys/menu/list', '资源列表', '', 0, 2, 0, '2018-12-13 19:32:40', '2018-12-13 19:32:40', NULL, NULL);
 INSERT INTO `t_sys_resource` VALUES (112, 11, '添加', 'sys/menu/save', '资源添加', '', 0, 2, 0, '2018-12-13 19:32:40', '2018-12-13 19:32:40', NULL, NULL);
 INSERT INTO `t_sys_resource` VALUES (113, 11, '编辑', 'sys/menu/update', '资源编辑', '', 0, 2, 0, '2018-12-13 19:32:40', '2018-12-13 19:32:40', NULL, NULL);
@@ -559,14 +559,14 @@ INSERT INTO `t_sys_resource` VALUES (132, 13, '添加', 'sys/user/save', '用户
 INSERT INTO `t_sys_resource` VALUES (133, 13, '编辑', 'sys/user/update', '用户编辑', '', 3, 2, 0, '2018-12-13 19:32:40', '2018-12-13 19:32:40', NULL, NULL);
 INSERT INTO `t_sys_resource` VALUES (134, 13, '删除', 'sys/user/delete', '用户删除', '', 4, 2, 0, '2018-12-13 19:32:40', '2018-12-13 19:32:40', NULL, NULL);
 INSERT INTO `t_sys_resource` VALUES (135, 13, '信息', 'sys/user/info', '用户信息', NULL, 5, 2, 0, '2018-12-14 14:05:39', '2018-12-14 14:05:41', NULL, NULL);
-INSERT INTO `t_sys_resource` VALUES (227, 1, '日志管理', 'sys/log', '日志管理', 'log', 8, 1, 0, '2020-12-12 16:51:28', '2020-12-12 16:51:28', NULL, 'admin');
+INSERT INTO `t_sys_resource` VALUES (227, 1, '日志管理', 'modules/sys/log', '日志管理', 'log', 8, 1, 0, '2020-12-12 16:51:28', '2020-12-12 16:51:28', NULL, 'admin');
 INSERT INTO `t_sys_resource` VALUES (228, 1, 'Druid监控', 'http://localhost:8181/druid', 'Druid监控', 'sql', 10, 1, 0, '2020-12-12 16:52:33', '2020-12-12 16:52:34', NULL, 'admin');
-INSERT INTO `t_sys_resource` VALUES (234, 1, '字典管理', 'sys/dic', '字典管理', 'menu', 4, 1, 0, '2018-12-17 19:12:03', '2018-12-17 19:12:04', NULL, 'admin');
+INSERT INTO `t_sys_resource` VALUES (234, 1, '字典管理', 'modules/sys/dic', '字典管理', 'menu', 4, 1, 0, '2018-12-17 19:12:03', '2018-12-17 19:12:04', NULL, 'admin');
 INSERT INTO `t_sys_resource` VALUES (235, 234, '数据字典列表', 'sys/dic/list', '数据字典列表', '', 0, 2, 0, '2018-12-13 19:37:23', '2018-12-13 19:37:23', NULL, NULL);
 INSERT INTO `t_sys_resource` VALUES (236, 234, '添加', 'sys/dic/save', '数据字典添加', '', 1, 2, 0, '2018-12-13 19:37:03', '2018-12-13 19:37:03', NULL, NULL);
 INSERT INTO `t_sys_resource` VALUES (237, 234, '编辑', 'sys/dic/update', '数据字典编辑', '', 2, 2, 0, '2018-12-13 19:32:40', '2018-12-13 19:32:40', NULL, NULL);
 INSERT INTO `t_sys_resource` VALUES (238, 234, '删除', 'sys/dic/delete', '数据字典删除', '', 3, 2, 0, '2018-12-13 19:32:40', '2018-12-13 19:32:40', NULL, NULL);
-INSERT INTO `t_sys_resource` VALUES (239, 1, '定时任务', 'sys/schedule', NULL, 'job', 5, 1, 0, '2018-12-15 19:10:38', NULL, 'admin', NULL);
+INSERT INTO `t_sys_resource` VALUES (239, 1, '定时任务', 'modules/sys/schedule', NULL, 'job', 5, 1, 0, '2018-12-15 19:10:38', NULL, 'admin', NULL);
 INSERT INTO `t_sys_resource` VALUES (240, 239, '列表', 'sys/schedule/list', NULL, '', 1, 2, 0, '2018-12-15 19:15:10', NULL, 'admin', NULL);
 INSERT INTO `t_sys_resource` VALUES (241, 239, '添加', 'sys/schedule/save', NULL, '', 2, 2, 0, '2018-12-15 19:16:20', NULL, 'admin', NULL);
 INSERT INTO `t_sys_resource` VALUES (242, 239, '编辑', 'sys/schedule/update', '定时任务编辑', '', 3, 2, 0, '2018-12-15 19:22:18', NULL, 'admin', NULL);
@@ -577,14 +577,14 @@ INSERT INTO `t_sys_resource` VALUES (246, 239, '恢复', 'sys/schedule/resume', 
 INSERT INTO `t_sys_resource` VALUES (247, 239, '立即执行', 'sys/schedule/run', '定时任务立即执行', '', 8, 2, 0, '2018-12-15 19:27:46', NULL, 'admin', NULL);
 INSERT INTO `t_sys_resource` VALUES (248, 239, '日志', 'sys/schedule/log', '定时任务日志', '', 9, 2, 0, '2018-12-15 19:28:40', NULL, 'admin', NULL);
 INSERT INTO `t_sys_resource` VALUES (249, 0, '企业管理', '', '企业管理', 'menu', 1, 0, 0, '2018-12-17 15:23:12', NULL, 'admin', NULL);
-INSERT INTO `t_sys_resource` VALUES (250, 249, '企业信息', 'enterprise/enterprise', '企业信息', 'menu', 1, 1, 0, '2018-12-17 15:25:18', NULL, 'admin', NULL);
+INSERT INTO `t_sys_resource` VALUES (250, 249, '企业信息', 'modules/enterprise/enterprise', '企业信息', 'menu', 1, 1, 0, '2018-12-17 15:25:18', NULL, 'admin', NULL);
 INSERT INTO `t_sys_resource` VALUES (251, 250, '列表', 'enterprise/enterprise/list', '列表', '', 1, 2, 0, '2018-12-17 15:25:59', NULL, 'admin', NULL);
 INSERT INTO `t_sys_resource` VALUES (252, 250, '添加', 'enterprise/enterprise/save', '添加', '', 2, 2, 0, '2018-12-17 15:26:34', NULL, 'admin', NULL);
 INSERT INTO `t_sys_resource` VALUES (253, 250, '编辑', 'enterprise/enterprise/update', '编辑', '', 3, 2, 0, '2018-12-17 15:27:14', NULL, 'admin', NULL);
 INSERT INTO `t_sys_resource` VALUES (254, 250, '删除', 'enterprise/enterprise/delete', '删除', '', 4, 2, 0, '2018-12-17 15:27:35', NULL, 'admin', NULL);
 INSERT INTO `t_sys_resource` VALUES (255, 250, '信息', 'enterprise/enterprise/info', '信息', '', 5, 2, 0, '2018-12-17 15:28:04', NULL, 'admin', NULL);
-INSERT INTO `t_sys_resource` VALUES (256, 249, '企业部门管理', 'enterprise/enterpriseDepartment', '企业部门管理', 'menu', 2, 1, 0, '2020-12-12 14:23:26', '2020-12-12 14:23:26', 'admin', 'admin');
-INSERT INTO `t_sys_resource` VALUES (257, 249, '企业职务管理', 'enterprise/enterpriseJob', '企业职务管理', 'menu', 3, 1, 0, '2020-12-12 14:23:42', '2020-12-12 14:23:42', 'admin', 'admin');
+INSERT INTO `t_sys_resource` VALUES (256, 249, '企业部门管理', 'modules/enterprise/enterpriseDepartment', '企业部门管理', 'menu', 2, 1, 0, '2020-12-12 14:23:26', '2020-12-12 14:23:26', 'admin', 'admin');
+INSERT INTO `t_sys_resource` VALUES (257, 249, '企业职务管理', 'modules/enterprise/enterpriseJob', '企业职务管理', 'menu', 3, 1, 0, '2020-12-12 14:23:42', '2020-12-12 14:23:42', 'admin', 'admin');
 INSERT INTO `t_sys_resource` VALUES (258, 256, '列表', 'enterprise/enterpriseDepartment/list', '企业部门列表', '', 1, 2, 0, '2018-12-17 19:05:51', NULL, 'admin', NULL);
 INSERT INTO `t_sys_resource` VALUES (259, 256, '添加', 'enterprise/enterpriseDepartment/save', '企业部门添加', '', 2, 2, 0, '2018-12-17 19:06:09', NULL, 'admin', NULL);
 INSERT INTO `t_sys_resource` VALUES (260, 256, '编辑', 'enterprise/enterpriseDepartment/update', '企业部门编辑', '', 3, 2, 0, '2018-12-17 19:06:34', NULL, 'admin', NULL);
@@ -596,8 +596,8 @@ INSERT INTO `t_sys_resource` VALUES (265, 257, '编辑', 'enterprise/enterpriseJ
 INSERT INTO `t_sys_resource` VALUES (266, 257, '删除', 'enterprise/enterpriseJob/delete', '企业职务删除', '', 4, 2, 0, '2018-12-17 19:09:48', NULL, 'admin', NULL);
 INSERT INTO `t_sys_resource` VALUES (267, 257, '信息', 'enterprise/enterpriseJob/info', '企业职务信息', '', 5, 2, 0, '2018-12-17 19:10:15', NULL, 'admin', NULL);
 INSERT INTO `t_sys_resource` VALUES (268, 1, 'API接口', 'http://localhost:8190/doc.html', 'API接口', 'config', 9, 1, 0, '2020-12-12 19:06:09', '2020-12-12 19:06:09', 'admin', 'admin');
-INSERT INTO `t_sys_resource` VALUES (269, 1, '系统通知', 'notice/sysNotice', '系统通知', 'tixing', 6, 1, 0, '2020-12-12 17:34:07', '2020-12-12 17:34:07', 'admin', 'admin');
-INSERT INTO `t_sys_resource` VALUES (1193731450753265666, 1, '代码生成', 'generator/generator', '代码生成', 'bianji', 7, 1, 0, '2020-12-12 16:51:36', '2020-12-12 16:51:37', 'admin', 'admin');
+INSERT INTO `t_sys_resource` VALUES (269, 1, '系统通知', 'modules/notice/sysNotice', '系统通知', 'tixing', 6, 1, 0, '2020-12-12 17:34:07', '2020-12-12 17:34:07', 'admin', 'admin');
+INSERT INTO `t_sys_resource` VALUES (1193731450753265666, 1, '代码生成', 'modules/generator/generator', '代码生成', 'bianji', 7, 1, 0, '2020-12-12 16:51:36', '2020-12-12 16:51:37', 'admin', 'admin');
 INSERT INTO `t_sys_resource` VALUES (1193731450753265667, 269, '列表', 'notice/list', '列表', '', 1, 2, 0, '2020-12-12 16:55:21', NULL, 'admin', NULL);
 INSERT INTO `t_sys_resource` VALUES (1193731450753265668, 269, '添加', 'notice/save', '添加', '', 2, 2, 0, '2020-12-12 16:58:21', NULL, 'admin', NULL);
 INSERT INTO `t_sys_resource` VALUES (1193731450753265669, 269, '编辑', 'notice/update', '编辑', '', 3, 2, 0, '2020-12-12 16:58:55', NULL, 'admin', NULL);
@@ -605,6 +605,17 @@ INSERT INTO `t_sys_resource` VALUES (1193731450753265670, 269, '删除', 'notice
 INSERT INTO `t_sys_resource` VALUES (1193731450753265671, 269, '信息', 'notice/info', '信息', '', 5, 2, 0, '2020-12-12 17:00:01', NULL, 'admin', NULL);
 INSERT INTO `t_sys_resource` VALUES (1193731450753265672, 269, '发布', 'notice/release', '发布', '', 6, 2, 0, '2020-12-12 17:40:40', '2020-12-12 17:40:41', 'admin', 'admin');
 INSERT INTO `t_sys_resource` VALUES (1193731450753265673, 269, '撤销', 'notice/revoke', '撤销', '', 7, 2, 0, '2020-12-12 17:01:40', NULL, 'admin', NULL);
+
+INSERT INTO `t_sys_resource` VALUES (1193731450753265675, 0, '工具箱', '', '', 'xiangqufill', 4, 0, 0, '2020-12-27 10:32:58', '2020-12-27 18:32:58', 'admin', 'admin');
+INSERT INTO `t_sys_resource` VALUES (1193731450753265676, 1193731450753265675, 'clipboard', 'clipboard/index', '', 'shoucangfill', 0, 1, 0, '2020-12-27 13:41:58', '2020-12-27 21:41:59', 'admin', 'admin');
+INSERT INTO `t_sys_resource` VALUES (1193731450753265677, 1193731450753265675, '折线图', 'charts/keyboard', '', 'editor', 1, 1, 0, '2020-12-27 13:42:22', '2020-12-27 21:42:22', 'admin', 'admin');
+INSERT INTO `t_sys_resource` VALUES (1193731450753265678, 1193731450753265675, '错误页面', 'error-page/401', '', 'mudedi', 2, 1, 0, '2020-12-27 13:42:39', '2020-12-27 21:42:40', 'admin', 'admin');
+INSERT INTO `t_sys_resource` VALUES (1193731450753265679, 1193731450753265675, '错误日志', 'error-log/index', '', 'log', 4, 1, 0, '2020-12-27 18:28:31', NULL, 'admin', NULL);
+INSERT INTO `t_sys_resource` VALUES (1193731450753265680, 1193731450753265675, 'charts', 'charts/keyboard', '', 'tubiao', 5, 1, 0, '2020-12-27 14:00:55', '2020-12-27 22:00:56', 'admin', 'admin');
+INSERT INTO `t_sys_resource` VALUES (1193731450753265681, 1193731450753265675, '七牛', 'qiniu/upload', '', 'oss', 5, 1, 0, '2020-12-27 13:43:55', '2020-12-27 21:43:55', 'admin', 'admin');
+INSERT INTO `t_sys_resource` VALUES (1193731450753265682, 1193731450753265675, 'theme', 'theme/index', '', 'tixing', 6, 1, 0, '2020-12-27 13:51:16', '2020-12-27 21:51:17', 'admin', 'admin');
+INSERT INTO `t_sys_resource` VALUES (1193731450753265683, 1193731450753265675, 'PDF', 'pdf/index', '', 'log', 7, 1, 0, '2020-12-27 22:03:39', NULL, 'admin', NULL);
+INSERT INTO `t_sys_resource` VALUES (1193731450753265684, 1193731450753265675, 'markdown', 'components-demo/markdown', '', 'mudedi', 7, 1, 0, '2020-12-27 14:43:51', '2020-12-27 22:43:52', 'admin', 'admin');
 
 -- ----------------------------
 -- Table structure for t_sys_role

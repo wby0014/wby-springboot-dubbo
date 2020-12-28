@@ -608,14 +608,18 @@ INSERT INTO `t_sys_resource` VALUES (1193731450753265673, 269, '撤销', 'notice
 
 INSERT INTO `t_sys_resource` VALUES (1193731450753265675, 0, '工具箱', '', '', 'xiangqufill', 4, 0, 0, '2020-12-27 10:32:58', '2020-12-27 18:32:58', 'admin', 'admin');
 INSERT INTO `t_sys_resource` VALUES (1193731450753265676, 1193731450753265675, 'clipboard', 'clipboard/index', '', 'shoucangfill', 0, 1, 0, '2020-12-27 13:41:58', '2020-12-27 21:41:59', 'admin', 'admin');
-INSERT INTO `t_sys_resource` VALUES (1193731450753265677, 1193731450753265675, '折线图', 'charts/keyboard', '', 'editor', 1, 1, 0, '2020-12-27 13:42:22', '2020-12-27 21:42:22', 'admin', 'admin');
-INSERT INTO `t_sys_resource` VALUES (1193731450753265678, 1193731450753265675, '错误页面', 'error-page/401', '', 'mudedi', 2, 1, 0, '2020-12-27 13:42:39', '2020-12-27 21:42:40', 'admin', 'admin');
+INSERT INTO `t_sys_resource` VALUES (1193731450753265677, 1193731450753265675, '文档', 'documentation/index', '', 'editor', 1, 1, 0, '2020-12-28 06:09:52', '2020-12-28 14:09:52', 'admin', 'admin');
+INSERT INTO `t_sys_resource` VALUES (1193731450753265678, 1193731450753265675, '错误页面', 'error-page/404', '', 'mudedi', 2, 1, 0, '2020-12-28 07:48:02', '2020-12-28 15:48:02', 'admin', 'admin');
 INSERT INTO `t_sys_resource` VALUES (1193731450753265679, 1193731450753265675, '错误日志', 'error-log/index', '', 'log', 4, 1, 0, '2020-12-27 18:28:31', NULL, 'admin', NULL);
-INSERT INTO `t_sys_resource` VALUES (1193731450753265680, 1193731450753265675, 'charts', 'charts/keyboard', '', 'tubiao', 5, 1, 0, '2020-12-27 14:00:55', '2020-12-27 22:00:56', 'admin', 'admin');
+INSERT INTO `t_sys_resource` VALUES (1193731450753265680, 1193731450753265686, 'keyboard', 'charts/keyboard', '', 'tubiao', 0, 1, 0, '2020-12-28 08:41:04', '2020-12-28 16:41:05', 'admin', 'admin');
 INSERT INTO `t_sys_resource` VALUES (1193731450753265681, 1193731450753265675, '七牛', 'qiniu/upload', '', 'oss', 5, 1, 0, '2020-12-27 13:43:55', '2020-12-27 21:43:55', 'admin', 'admin');
 INSERT INTO `t_sys_resource` VALUES (1193731450753265682, 1193731450753265675, 'theme', 'theme/index', '', 'tixing', 6, 1, 0, '2020-12-27 13:51:16', '2020-12-27 21:51:17', 'admin', 'admin');
 INSERT INTO `t_sys_resource` VALUES (1193731450753265683, 1193731450753265675, 'PDF', 'pdf/index', '', 'log', 7, 1, 0, '2020-12-27 22:03:39', NULL, 'admin', NULL);
 INSERT INTO `t_sys_resource` VALUES (1193731450753265684, 1193731450753265675, 'markdown', 'components-demo/markdown', '', 'mudedi', 7, 1, 0, '2020-12-27 14:43:51', '2020-12-27 22:43:52', 'admin', 'admin');
+INSERT INTO `t_sys_resource` VALUES (1193731450753265685, 1193731450753265675, 'icons', 'icons/index', '', 'sousuo', 7, 1, 0, '2020-12-28 14:30:49', NULL, 'admin', NULL);
+INSERT INTO `t_sys_resource` VALUES (1193731450753265686, 1193731450753265675, '图表', '', '', 'dashboard', 7, 0, 0, '2020-12-28 16:40:32', NULL, 'admin', NULL);
+INSERT INTO `t_sys_resource` VALUES (1193731450753265687, 1193731450753265686, 'line', 'charts/line', '', 'chart', 1, 1, 0, '2020-12-28 16:42:20', NULL, 'admin', NULL);
+INSERT INTO `t_sys_resource` VALUES (1193731450753265688, 1193731450753265686, 'mix-chart', 'charts/mix-chart', '', 'drag', 2, 1, 0, '2020-12-28 16:43:09', NULL, 'admin', NULL);
 
 -- ----------------------------
 -- Table structure for t_sys_role

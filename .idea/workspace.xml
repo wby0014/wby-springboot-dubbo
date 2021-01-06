@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41f87656-96d2-4117-81a5-256b1e1287d4" name="Default Changelist" comment="修改server-base目录名称">
-      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-base/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-base/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-notice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-notice/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wby-service/wby-server-notice/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-server-notice/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wby-service/wby-web-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-web-base/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wby-service/wby-web-base/src/main/resources/application-dev.yml" afterDir="false" />
-    </list>
+    <list default="true" id="41f87656-96d2-4117-81a5-256b1e1287d4" name="Default Changelist" comment="更新mysql数据库脚本初始化菜单" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,7 +90,8 @@
       <workItem from="1608016259606" duration="1307000" />
       <workItem from="1608260201209" duration="774000" />
       <workItem from="1608618580683" duration="11353000" />
-      <workItem from="1608707157241" duration="1474000" />
+      <workItem from="1608707157241" duration="7941000" />
+      <workItem from="1609122275310" duration="73000" />
     </task>
     <task id="LOCAL-00001" summary="解决mapper接口不存在的问题">
       <created>1608629992357</created>
@@ -120,7 +114,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608630788823</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="修改mysql数据库脚本">
+      <created>1608711851639</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608711851639</updated>
+    </task>
+    <task id="LOCAL-00005" summary="更新mysql数据库脚本初始化菜单">
+      <created>1609122322751</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1609122322751</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,29 +138,32 @@
     <MESSAGE value="解决mapper接口不存在的问题" />
     <MESSAGE value="解决dockerfile中jdk获取问题" />
     <MESSAGE value="修改server-base目录名称" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改server-base目录名称" />
+    <MESSAGE value="修改打包生成的目标目录" />
+    <MESSAGE value="修改mysql数据库脚本" />
+    <MESSAGE value="更新mysql数据库脚本初始化菜单" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新mysql数据库脚本初始化菜单" />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1608708640691">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1608708640691" />
-    <state width="1323" height="377" key="GridCell.Tab.0.bottom" timestamp="1608708511328">
+    <state width="1323" height="377" key="GridCell.Tab.0.bottom" timestamp="1608790205853">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="377" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1608708511328" />
-    <state width="1323" height="377" key="GridCell.Tab.0.center" timestamp="1608708511327">
+    <state width="1323" height="377" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1608790205853" />
+    <state width="1323" height="377" key="GridCell.Tab.0.center" timestamp="1608790205852">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="377" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1608708511327" />
-    <state width="1323" height="377" key="GridCell.Tab.0.left" timestamp="1608708511327">
+    <state width="1323" height="377" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1608790205852" />
+    <state width="1323" height="377" key="GridCell.Tab.0.left" timestamp="1608790205849">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="377" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1608708511327" />
-    <state width="1323" height="377" key="GridCell.Tab.0.right" timestamp="1608708511328">
+    <state width="1323" height="377" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1608790205849" />
+    <state width="1323" height="377" key="GridCell.Tab.0.right" timestamp="1608790205853">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="377" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1608708511328" />
+    <state width="1323" height="377" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1608790205853" />
     <state width="1323" height="243" key="GridCell.Tab.1.bottom" timestamp="1608629895944">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -189,18 +200,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="450" y="78" key="VCS.ChangeListViewerDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1608686073336" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1608630797265">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1609122328635">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1608630797265" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1609122328635" />
     <state x="475" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608708836499">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="475" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1608708836499" />
-    <state x="359" y="97" width="824" height="534" key="find.popup" timestamp="1608707244513">
+    <state x="359" y="97" width="824" height="534" key="find.popup" timestamp="1608773680121">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="359" y="97" width="824" height="534" key="find.popup/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1608707244513" />
+    <state x="359" y="97" width="824" height="534" key="find.popup/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1608773680121" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1608015778022">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
